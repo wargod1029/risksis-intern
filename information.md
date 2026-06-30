@@ -4,6 +4,18 @@
   - lifting = 1.8
 - $1164.6 Nm$ for lifting
 
+### BLDC gear motor
+- **Motor** : https://www.uumotor.com/400n-m-in-wheel-high-torque-low-speed-geared-hub-motor.html
+- **ESC** : 
+
+### BLDC frameless motor
+https://www.nanotec.com/eu/en/products/13525-dka115l048006
+
+
+## need to be smaller, it is too big (the motor)
+
+
+
 
 
 ## need to be smaller, it is too big (the motor)
