@@ -4,15 +4,21 @@
   - lifting = 1.8
 - $1164.6 Nm$ for lifting
 
+### limitation
+- since there exist dimension limit for the robot
+- we need a decrease the size of motor
+- we sacrifice some torque for the motor
+- ~400Nm for now
 ### BLDC gear motor
 - **Motor** : https://www.uumotor.com/400n-m-in-wheel-high-torque-low-speed-geared-hub-motor.html
 - **ESC** : 
+  - https://kellycontroller.com/shop/brushless/
+  - 
 
 ### BLDC frameless motor
 https://www.nanotec.com/eu/en/products/13525-dka115l048006
 
 
-## need to be smaller, it is too big (the motor)
 
 
 
