@@ -1,3 +1,11 @@
+## higher voltage alternative motor (96VDC)
+### BLDC frameless motor 
+- TBM2G-11526 with Precision Cycloidal Reducer
+- gear ratio 200:1
+- RPM 15.5 left after gearbox
+- torque with 1206 without lost form gearbox
+
+
 ## smaller motor finding
 - $323.51 Nm$ for holding
   - safety factor * 2
@@ -9,14 +17,30 @@
 - we need a decrease the size of motor
 - we sacrifice some torque for the motor
 - ~400Nm for now
+
+## For lifting
+
+### AC servo motor
+- **Motor and the servo drive** : https://www.ato.com/5-5-kw-ac-servo-motor?srsltid=AfmBOoqYYlr2MXexR9rh_WvXXTAnl78ZhyRPaEDCsW9w0CutoTDqifIK
+
+
 ### BLDC gear motor
 - **Motor** : https://www.uumotor.com/400n-m-in-wheel-high-torque-low-speed-geared-hub-motor.html
 - **ESC** : 
   - https://kellycontroller.com/shop/brushless/
   - 
 
-### BLDC frameless motor
-https://www.nanotec.com/eu/en/products/13525-dka115l048006
+### BLDC frameless motor (same one)
+- https://www.nanotec.com/eu/en/products/13525-dka115l048006
+- need a 10:1 gearbox
+
+## For rotate
+### BLDC frameless motor (same one)
+- https://www.nanotec.com/eu/en/products/13525-dka115l048006
+- can direct drive with 78 Nm
+
+### ESC
+
 
 
 
