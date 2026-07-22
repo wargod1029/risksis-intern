@@ -1,3 +1,8 @@
+## gear box
+Apex Dynamics AH140 or AH200 Series
+
+
+
 ## higher voltage alternative motor (96VDC)
 ### BLDC frameless motor 
 - [TBM2G-11526 with Precision Cycloidal Reducer](https://www.kollmorgen.com/en-us/products/motors/direct-drive/tbm2g-series-frameless#Specifications)
