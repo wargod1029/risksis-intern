@@ -1,10 +1,14 @@
 ## higher voltage alternative motor (96VDC)
 ### BLDC frameless motor 
-- TBM2G-11526 with Precision Cycloidal Reducer
+- [TBM2G-11526 with Precision Cycloidal Reducer](https://www.kollmorgen.com/en-us/products/motors/direct-drive/tbm2g-series-frameless#Specifications)
 - gear ratio 200:1
 - RPM 15.5 left after gearbox
 - torque with 1206 without lost form gearbox
-
+### BLDC servo motor with brake
+- [DKA115L048006](https://www.keyaservo.com/3000w-dc-servo-motors/57477769.html)
+- gear ratio 60:1
+- RPM 25 left after gearbox
+- torque of 1146 without lost from gearbox
 
 ## smaller motor finding
 - $323.51 Nm$ for holding
