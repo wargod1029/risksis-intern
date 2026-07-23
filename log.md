@@ -9,7 +9,18 @@
   - sensor fusion between GNSS and lidar
 - research on camera for tram 
 - research on AI deploy on FPGA
+- research on mm wave radar for animal detection
 ***
+### 23/07/2026
+#### Research on AI deploy on FPGA (1 hour)
+- double check the proposal
+
+#### Research on mm wave radar for animal detection ()
+- study on mm wave radar
+- read [Millimeter Wave Radar for High Resolution 3D Near Field
+Imaging for Robotics and Security Scans
+](./mm_wave_radar/paper/Millimeter_wave_radar_for_high_resolution_3D_near_field_imaging_for_robotics_and_security_scans.pdf)
+
 ### 22/07/2026
 #### Research on AI deploy on FPGA (5 hour)
 - found this repo using vivado [FPGA AI](https://github.com/nhma20/FPGA_AI)
