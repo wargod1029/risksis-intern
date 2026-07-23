@@ -1,4 +1,4 @@
-# Standard AMD Workflow to Put AI into an FPGA
+# Standard AMD Workflow to deploy AI model on an FPGA
 
 ---
 
@@ -109,24 +109,25 @@ Accurate PS/PL architecture diagram for Zynq/Versal platforms.
 ## External Resources
 
 - [Advanced FPGA Course: Verilog Based Robotics & Signal Processing](https://www.youtube.com/playlist?list=PLfPwG72dAOx6gkqrrZVdr63EaizecO0Cg)
-- [hls4ml](https://fastmachinelearning.org/hls4ml/) — translate machine learning models directly into synthesizable VHDL or Verilog
+- [hls4ml](https://fastmachinelearning.org/hls4ml/) 
+    - translate machine learning models directly into synthesizable VHDL or Verilog
 - [PyTorch AI on FPGA — FINN Workflow Tutorial](https://hugobrh.dev/posts/PY2FPGA/)
 - [Python to FPGA](https://github.com/0BAB1/tutorial-snippets/tree/main/8%20Python%20to%20FPGA)
 - [Educational Platform for FPGA Accelerated AI in Robotics](https://github.com/nhma20/FPGA_AI)
 - [Workflow of deploying a model (AMD) — Vitis AI 3.5 docs](https://xilinx.github.io/Vitis-AI/3.5/html/docs/workflow-model-deployment.html)
-- **AMD XRT (Xilinx Runtime) & OpenCL** — alternative acceleration flow for Alveo data-center FPGA cards. XRT provides a software stack for host-to-FPGA communication, and OpenCL kernels can be synthesized via Vitis to run on the FPGA fabric. This is a separate path from the Vitis AI/DPU workflow — use it for custom compute pipelines rather than neural-network inference.
+
 
 ---
 
-## AI Module Comparison
+# AI Module Comparison
 
 
-| Platform / Device | Peak AI Performance (TOPS) | Power Consumption | Primary Use Case & Architecture | Verdict |
-|---|---|---|---|---|
-| **NVIDIA Jetson AGX Orin** | Up to 275 TOPS (INT8) | 15W – 60W | High-end robotics, autonomous navigation. Integrates CPU, Ampere GPU, and Deep Learning Accelerators (DLA). | |
-| **NVIDIA Jetson Orin Nano (Super)** | Up to 67 TOPS (INT8, 8 GB SKU) / 40 TOPS (original non-Super) | 7W – 25W | Entry-level embedded AI and smart cameras. The "Super" variant (Dec 2024) offers a significant TOPS uplift over the original Orin Nano. Lower-power CUDA entry point. | |
-| **Raspberry Pi 5 + Hailo-8 AI HAT** | ~13 to 26 TOPS | 10W – 15W | Low-power field robots. Relies on a separate Hailo accelerator (Hailo-8L = 13 TOPS, Hailo-8 = 26 TOPS) for edge inference. | |
-| **Intel NUC (Core Ultra / Arc)** | 20–40+ TOPS (NPU + GPU, varies by generation) | 28W – 65+W (system) | Industrial edge / edge server. Full x86 compatibility and PCIe expansion. **Generation breakdown:** Meteor Lake NPU ≈ 11 TOPS, Arrow Lake NPU ≈ 13 TOPS, Lunar Lake NPU ≈ 48 TOPS. Combined NPU + Arc GPU can reach 40+ TOPS on Lunar Lake. Specify the exact CPU generation when comparing. | |
-| **Axelera Metis AI** | Up to 214 TOPS | 20W – 40W | Based on in-memory computing (PIM) and RISC-V; optimized for ultra-low latency at high TOPS. | Matches Axelera's published Metis AIPU specs. |
-| **EdgeCortix SAKURA** | Up to 60 TOPS | Under 10W | Highly efficient FIM (Fabric in Memory) architecture; targets low-power smart city and vision applications. | Matches EdgeCortix SAKURA-I published specs. |
-| **SiMa.ai MLSoC** | Up to 50+ TOPS | ~5–10W (typical board power) | Purpose-built for edge AI; integrated CV/vision pipeline with software-programmable NPU. Power varies by workload — peak throughput draws toward the higher end of the range. Verify against a specific SKU datasheet. | |
+| Platform / Device | Peak AI Performance (TOPS) | Power Consumption | Primary Use Case & Architecture |
+|---|---|---|---|
+| **[NVIDIA Jetson AGX Orin](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/)** | Up to 275 TOPS (INT8) | 15W – 60W | High-end robotics, autonomous navigation. Integrates CPU, Ampere GPU, and Deep Learning Accelerators (DLA). | |
+| **[NVIDIA Jetson Orin Nano (Super)](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/)** | Up to 67 TOPS (INT8, 8 GB SKU) / 40 TOPS (original non-Super) | 7W – 25W | Entry-level embedded AI and smart cameras. The "Super" variant (Dec 2024) offers a significant TOPS uplift over the original Orin Nano. Lower-power CUDA entry point. | |
+| **[Raspberry Pi 5 ](https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-008348-DS-6-raspberry-pi-5-product-brief.pdf)+ [Hailo-8 AI HAT](https://www.raspberrypi.com/products/ai-hat/)** | ~13 to 26 TOPS | 10W – 15W | Low-power field robots. Relies on a separate Hailo accelerator (Hailo-8L = 13 TOPS, Hailo-8 = 26 TOPS) for edge inference. | |
+| **[ASUS NUC 14 ](https://www.asus.com/hk-en/displays-desktops/nucs/nuc-mini-pcs/asus-nuc-14-pro/)** | 20–40+ TOPS (NPU + GPU, varies by generation) | 28W – 65+W (system) | Industrial edge / edge server. Full x86 compatibility and PCIe expansion. **Generation breakdown:** Meteor Lake NPU ≈ 11 TOPS, Arrow Lake NPU ≈ 13 TOPS, Lunar Lake NPU ≈ 48 TOPS. Combined NPU + Arc GPU can reach 40+ TOPS on Lunar Lake. Specify the exact CPU generation when comparing. | |
+| **[Axelera AI Mini PC With M.2 Max](https://axelera.ai/systems/axelera-mini-pc-with-m.2-max)** | Up to 214 TOPS | 20W – 40W | Based on in-memory computing (PIM) and RISC-V; optimized for ultra-low latency at high TOPS. |
+| **[EdgeCortix SAKURA](https://www.bittware.com/files/Bittware-Sakura-I-Datasheet-Jan-2024-ENG-LTR-Web.pdf)** | Up to 60 TOPS | Under 10W | Highly efficient FIM (Fabric in Memory) architecture; targets low-power smart city and vision applications. | 
+| **[SiMa.ai MLSoC](https://devkit.sima.ai/)** | Up to 50+ TOPS | ~5–10W (typical board power) | Purpose-built for edge AI; integrated CV/vision pipeline with software-programmable NPU. Power varies by workload — peak throughput draws toward the higher end of the range. Verify against a specific SKU datasheet. | |
