@@ -1,0 +1,221 @@
+[0.017s] Invoking command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros
+[0.156s] -- The C compiler identification is GNU 11.4.0
+[0.269s] -- The CXX compiler identification is GNU 11.4.0
+[0.282s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.376s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.376s] -- Detecting C compile features
+[0.376s] -- Detecting C compile features - done
+[0.380s] -- Detecting CXX compiler ABI info
+[0.489s] -- Detecting CXX compiler ABI info - done
+[0.499s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.499s] -- Detecting CXX compile features
+[0.499s] -- Detecting CXX compile features - done
+[0.503s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.923s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.040s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.102s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.111s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.122s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.215s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.218s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.307s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.335s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.376s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.453s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.495s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.525s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.571s] -- Found ouster_sensor_msgs: 0.14.2 (/opt/ros/humble/share/ouster_sensor_msgs/cmake)
+[1.593s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.611s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.636s] -- Found Eigen3: /usr/share/eigen3/cmake/Eigen3Config.cmake (found version "3.4.0") 
+[1.651s] -- Checking for module 'eigen3'
+[1.666s] --   Found eigen3, version 3.4.0
+[1.707s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.707s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.735s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.736s] -- looking for PCL_COMMON
+[1.737s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.738s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[1.739s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.777s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.884s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.886s] -- Using OusterSDK version from VERSION file: 0.16.2
+[1.893s] -- Looking for pthread.h
+[1.988s] -- Looking for pthread.h - found
+[1.988s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.074s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.076s] -- Found Threads: TRUE  
+[2.137s] -- Found libzip: /usr/include (found version "1.7.3") 
+[2.220s] -- Found CURL: /usr/include/x86_64-linux-gnu (found version "7.81.0") 
+[2.272s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.277s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.369s] -- Configuring done
+[2.555s] -- Generating done
+[2.599s] -- Build files have been written to: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros
+[2.622s] Invoked command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros
+[2.623s] Invoking command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros -- -j4 -l4
+[2.696s] [  1%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/gga.cpp.o[0m
+[2.700s] [  2%] [32mBuilding CXX object CMakeFiles/os_replay.dir/rclcpp_components/node_main_os_replay.cpp.o[0m
+[2.706s] [34m[1mGenerating build info header[0m
+[2.715s] [  3%] [32mBuilding CXX object CMakeFiles/os_sensor.dir/rclcpp_components/node_main_os_sensor.cpp.o[0m
+[3.017s] [  3%] Built target ouster_generate_header
+[3.031s] [  4%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/gll.cpp.o[0m
+[3.329s] [  5%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/gsa.cpp.o[0m
+[3.739s] [  6%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/gsv.cpp.o[0m
+[3.885s] [  7%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/parse.cpp.o[0m
+[4.311s] [  8%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/rmc.cpp.o[0m
+[4.631s] [  9%] [32mBuilding CXX object CMakeFiles/os_cloud.dir/rclcpp_components/node_main_os_cloud.cpp.o[0m
+[4.642s] [ 10%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/sentence.cpp.o[0m
+[5.725s] [ 11%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/vtg.cpp.o[0m
+[6.163s] [ 12%] [32mBuilding CXX object ouster-sdk/ouster_client/nmea/CMakeFiles/nmea.dir/src/zda.cpp.o[0m
+[6.563s] [ 13%] [32m[1mLinking CXX static library libnmea.a[0m
+[6.640s] [ 13%] Built target nmea
+[6.663s] [ 14%] [32mBuilding CXX object CMakeFiles/os_image.dir/rclcpp_components/node_main_os_image.cpp.o[0m
+[8.833s] [ 15%] [32m[1mLinking CXX executable os_sensor[0m
+[9.077s] [ 15%] Built target os_sensor
+[9.121s] [ 16%] [32mBuilding CXX object CMakeFiles/os_driver.dir/rclcpp_components/node_main_os_driver.cpp.o[0m
+[10.081s] [ 17%] [32m[1mLinking CXX executable os_replay[0m
+[10.284s] [ 17%] Built target os_replay
+[10.316s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[11.129s] [ 19%] [32m[1mLinking CXX executable os_cloud[0m
+[11.335s] [ 19%] Built target os_cloud
+[11.364s] [ 19%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.167s] [ 20%] [32m[1mLinking CXX executable os_image[0m
+[12.338s] [ 20%] Built target os_image
+[12.380s] [ 21%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/types.cpp.o[0m
+[12.447s] [ 22%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.515s] [ 22%] Built target gtest_main
+[12.537s] [ 23%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/sensor_info.cpp.o[0m
+[15.405s] [ 24%] [32m[1mLinking CXX executable os_driver[0m
+[15.709s] [ 24%] Built target os_driver
+[15.731s] [ 25%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan.cpp.o[0m
+[26.224s] [ 26%] [32m[1mLinking CXX static library libgtest.a[0m
+[26.285s] [ 26%] Built target gtest
+[42.967s] [ 27%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/packet_source.cpp.o[0m
+[45.346s] [ 28%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/compat_ops.cpp.o[0m
+[46.209s] [ 29%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/logging.cpp.o[0m
+[50.223s] [ 30%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/field.cpp.o[0m
+[52.240s] [ 31%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/parsing.cpp.o[0m
+[54.261s] [ 32%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/image_processing.cpp.o[0m
+[54.637s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:[m[K In function ‘[01m[Kouster::sdk::core::impl::FieldInfo ouster::sdk::core::impl::field_info(size_t, size_t, size_t, size_t, size_t)[m[K’:
+[54.639s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:114:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmax_length[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.639s]   114 |                      [01;35m[Ksize_t max_length = 0[m[K, size_t num_elements = 1) {
+[54.640s]       |                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[55.053s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = unsigned char; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.053s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.053s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.053s]  1115 |     for (uint32_t i = 0; [01;35m[Ki < columns_per_packet[m[K; ++i) {
+[55.053s]       |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[55.053s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = short unsigned int; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.053s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.054s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.054s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = unsigned int; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.055s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.055s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.057s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = long unsigned int; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.057s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.057s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.057s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = signed char; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.057s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.059s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.059s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = short int; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.060s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.060s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.060s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = int; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.061s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.061s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.061s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = long int; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.061s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.063s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.063s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = float; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.063s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.063s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.063s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = double; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.063s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.065s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.065s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = ouster::sdk::core::float16_t; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.066s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.066s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.066s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[Kvoid ouster::sdk::core::impl::PacketWriter::set_block(const T*, int, const string&, uint8_t*) const [with T = ouster::sdk::core::impl::float3x16_t; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’:
+[55.066s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1145:1:[m[K   required from here
+[55.066s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:1115:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[55.118s] /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp: In instantiation of ‘[01m[KT ouster::sdk::core::impl::FieldInfo::get(const uint8_t*) const [with T = ouster::sdk::core::float16_t; uint8_t = unsigned char][m[K’:
+[55.118s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:679:59:[m[K   required from ‘[01m[Kvoid ouster::sdk::core::PacketFormat::block_field(T*, int, const string&, const uint8_t*) const [with T = ouster::sdk::core::float16_t; int BlockDim = 4; std::string = std::__cxx11::basic_string<char>; uint8_t = unsigned char][m[K’
+[55.118s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:729:1:[m[K   required from here
+[55.118s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:70:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[Kstruct ouster::sdk::core::float16_t[m[K’ from an array of ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+[55.118s]    70 |         [01;35m[Kstd::memcpy(&out, &word, sizeof(out))[m[K;
+[55.118s]       |         [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[55.118s] In file included from [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/field.h:18[m[K,
+[55.118s]                  from [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:23[m[K:
+[55.119s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/include/ouster/typedefs.h:196:25:[m[K [01;36m[Knote: [m[K‘[01m[Kstruct ouster::sdk::core::float16_t[m[K’ declared here
+[55.119s]   196 | struct OUSTER_API_CLASS [01;36m[Kfloat16_t[m[K {
+[55.119s]       |                         [01;36m[K^~~~~~~~~[m[K
+[57.094s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:[m[K In member function ‘[01m[Kvoid ouster::sdk::core::PacketFormat::block_field(T*, int, const string&, const uint8_t*) const [with T = ouster::sdk::core::impl::float3x16_t; int BlockDim = 4][m[K’:
+[57.094s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:654:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kword_lsm0.3203[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[57.094s]   654 | void [01;35m[KPacketFormat[m[K::block_field(T* data, int cols, const std::string& field_name,
+[57.094s]       |      [01;35m[K^~~~~~~~~~~~[m[K
+[57.094s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:61:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kword[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[57.094s]    61 |         uint64_t [01;35m[Kword[m[K = *reinterpret_cast<const uint64_t*>(buffer + offset);
+[57.094s]       |                  [01;35m[K^~~~[m[K
+[57.685s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:[m[K In member function ‘[01m[Kvoid ouster::sdk::core::PacketFormat::block_field(T*, int, const string&, const uint8_t*) const [with T = ouster::sdk::core::impl::float3x16_t; int BlockDim = 8][m[K’:
+[57.685s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:654:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kword_lsm0.3624[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[57.685s]   654 | void [01;35m[KPacketFormat[m[K::block_field(T* data, int cols, const std::string& field_name,
+[57.685s]       |      [01;35m[K^~~~~~~~~~~~[m[K
+[57.688s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/ouster-sdk/ouster_client/src/parsing.cpp:61:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kword[m[K’ may be used uninitialized in this function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[57.691s]    61 |         uint64_t [01;35m[Kword[m[K = *reinterpret_cast<const uint64_t*>(buffer + offset);
+[57.691s]       |                  [01;35m[K^~~~[m[K
+[66.208s] [ 33%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/packet.cpp.o[0m
+[68.320s] [ 34%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/open_source.cpp.o[0m
+[70.334s] [ 35%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/scan_source.cpp.o[0m
+[72.351s] [ 36%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/metadata.cpp.o[0m
+[73.044s] [ 37%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/profile_extension.cpp.o[0m
+[75.070s] [ 38%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/scan_source_utils.cpp.o[0m
+[76.012s] [ 39%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/io_type.cpp.o[0m
+[77.251s] [ 40%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/multi_scan_source.cpp.o[0m
+[101.375s] [ 41%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/transform_homogeneous.cpp.o[0m
+[103.249s] [ 42%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/pose_util.cpp.o[0m
+[107.159s] [ 43%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/pose_conversion.cpp.o[0m
+[109.374s] [ 44%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/cloud_io.cpp.o[0m
+[110.389s] [ 45%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/error_handler.cpp.o[0m
+[110.917s] [ 46%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/transform_vector.cpp.o[0m
+[111.786s] [ 47%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/zone_monitor.cpp.o[0m
+[112.800s] [ 48%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/lidar_scan_set.cpp.o[0m
+[113.776s] [ 50%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/transform_quaternion.cpp.o[0m
+[120.450s] [ 51%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/zip.cpp.o[0m
+[121.183s] [ 52%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/normals.cpp.o[0m
+[122.196s] [ 53%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/chanfield.cpp.o[0m
+[122.544s] [ 54%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/json_tools.cpp.o[0m
+[123.569s] [ 55%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/xyzlut.cpp.o[0m
+[124.207s] [ 56%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/mesh.cpp.o[0m
+[145.691s] [ 57%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/zone.cpp.o[0m
+[148.381s] [ 58%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/zrb.cpp.o[0m
+[150.464s] [ 59%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/zone_header.cpp.o[0m
+[151.906s] [ 60%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/vector_streambuf.cpp.o[0m
+[152.274s] [ 61%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/sha256.cpp.o[0m
+[152.838s] [ 62%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/beam_config.cpp.o[0m
+[155.267s] [ 63%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/typedefs.cpp.o[0m
+[156.598s] [ 64%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/stl.cpp.o[0m
+[157.974s] [ 65%] [32mBuilding CXX object ouster-sdk/ouster_client/CMakeFiles/ouster_client.dir/src/triangle.cpp.o[0m
+[159.241s] [ 66%] [32m[1mLinking CXX static library libouster_client.a[0m
+[159.423s] [ 66%] Built target ouster_client
+[159.463s] [ 67%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/client.cpp.o[0m
+[170.005s] [ 68%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/sensor_http.cpp.o[0m
+[178.878s] [ 69%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/sensor_http_imp.cpp.o[0m
+[189.478s] [ 70%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/sensor_scan_source.cpp.o[0m
+[189.480s] [ 71%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/sensor_packet_source.cpp.o[0m
+[189.482s] [ 72%] [32mBuilding CXX object ouster-sdk/ouster_sensor/CMakeFiles/ouster_sensor.dir/src/netcompat.cpp.o[0m
+[197.079s] [ 73%] [32m[1mLinking CXX static library libouster_sensor.a[0m
+[197.146s] [ 73%] Built target ouster_sensor
+[197.174s] [ 74%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m
+[197.174s] [ 75%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/impl/file_util.cpp.o[0m
+[198.182s] gmake[2]: *** wait: No child processes.  Stop.
+[198.182s] gmake[2]: *** Waiting for unfinished jobs....
+[198.182s] gmake[2]: *** wait: No child processes.  Stop.
+[198.182s] gmake[1]: *** [CMakeFiles/Makefile2:319: CMakeFiles/ouster_ros_library.dir/all] Error 2
+[198.184s] gmake: *** wait: No child processes.  Stop.
+[198.184s] gmake: *** Waiting for unfinished jobs....
+[198.184s] gmake: *** wait: No child processes.  Stop.
+[198.191s] Invoked command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros -- -j4 -l4

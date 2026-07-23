@@ -1,0 +1,219 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"ouster-sdk/cmake/VersionGen.cmake",
+			"ouster-sdk/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 168,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 174,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 183,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 187,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 196,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros/ouster-sdk/generated/ouster"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OusterSDK",
+			"exportName" : "ouster-sdk-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ouster_client::@08d44d94d7a20d1831a2",
+					"index" : 14
+				},
+				{
+					"id" : "nmea::@cf4184c30a93e3785700",
+					"index" : 3
+				},
+				{
+					"id" : "ouster_sensor::@41bab670875563870488",
+					"index" : 18
+				}
+			],
+			"paths" : 
+			[
+				"ouster-sdk/CMakeFiles/Export/lib/cmake/OusterSDK/OusterSDKTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OusterSDK",
+			"paths" : 
+			[
+				"/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros/ouster-sdk/OusterSDKConfig.cmake",
+				"/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros/ouster-sdk/OusterSDKConfigVersion.cmake",
+				"ouster-sdk/cmake/Coverage.cmake",
+				"ouster-sdk/cmake/VcpkgEnv.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OusterSDK",
+			"paths" : 
+			[
+				"ouster-sdk/cmake/FindEigen3.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OusterSDK",
+			"paths" : 
+			[
+				"ouster-sdk/cmake/Findlibtins.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OusterSDK",
+			"paths" : 
+			[
+				"ouster-sdk/cmake/Findlibzip.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OusterSDK",
+			"paths" : 
+			[
+				"ouster-sdk/cmake/FindCURL.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OusterSDK",
+			"paths" : 
+			[
+				"ouster-sdk/cmake/Findglfw3.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OusterSDK",
+			"paths" : 
+			[
+				"ouster-sdk/cmake/FindPcap.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "share",
+			"paths" : 
+			[
+				"ouster-sdk/LICENSE",
+				"ouster-sdk/LICENSE-bin"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ouster-sdk",
+		"source" : "ouster-sdk"
+	}
+}

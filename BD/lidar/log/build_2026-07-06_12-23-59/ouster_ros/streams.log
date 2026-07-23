@@ -1,0 +1,67 @@
+[0.016s] Invoking command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros -- -j4 -l4
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target nmea[0m
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target os_sensor[0m
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target os_replay[0m
+[0.120s] [34m[1mGenerating build info header[0m
+[0.122s] [ 10%] Built target nmea
+[0.132s] [ 12%] Built target os_replay
+[0.140s] [ 14%] Built target os_sensor
+[0.152s] [35m[1mConsolidate compiler generated dependencies of target os_image[0m
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target os_cloud[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target os_driver[0m
+[0.175s] [ 14%] Built target ouster_generate_header
+[0.195s] [ 16%] Built target os_image
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.202s] [ 18%] Built target os_cloud
+[0.230s] [ 20%] Built target os_driver
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.235s] [ 22%] Built target gtest_main
+[0.256s] [35m[1mConsolidate compiler generated dependencies of target ouster_client[0m
+[0.265s] [ 23%] Built target gtest
+[0.370s] [ 66%] Built target ouster_client
+[0.386s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor[0m
+[0.426s] [ 73%] Built target ouster_sensor
+[0.437s] [35m[1mConsolidate compiler generated dependencies of target ouster_ros_library[0m
+[0.453s] [ 74%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m
+[15.856s] [ 75%] [32m[1mLinking CXX shared library libouster_ros_library.so[0m
+[16.423s] [ 76%] Built target ouster_ros_library
+[16.461s] [ 77%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node_base.cpp.o[0m
+[16.462s] [ 78%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_processing_node_base.cpp.o[0m
+[16.467s] [ 79%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_sensor_node_base.cpp.o[0m
+[16.474s] [ 80%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_processing_node_base.cpp.o[0m
+[29.323s] [ 81%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_replay_node.cpp.o[0m
+[31.682s] [ 82%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node.cpp.o[0m
+[38.406s] [ 83%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o[0m
+[40.924s] [ 84%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_image_node.cpp.o[0m
+[44.542s] [ 85%] [32m[1mLinking CXX shared library libos_replay_component.so[0m
+[45.051s] [ 85%] Built target os_replay_component
+[53.297s] [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:53:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[53.297s]    53 |     void metadata_handler(const std_msgs::msg::String::ConstPtr& metadata_msg[01;35m[K)[m[K {
+[53.297s]       |                                                                              [01;35m[K^[m[K
+[53.297s] In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+[53.297s]                  from [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:14[m[K,
+[53.297s]                  from [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:21[m[K:
+[53.297s] [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:106:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[53.297s]   106 |     [01;36m[KConstPtr[m[K;
+[53.297s]       |     [01;36m[K^~~~~~~~[m[K
+[61.680s] [ 86%] [32m[1mLinking CXX shared library libos_sensor_component.so[0m
+[62.279s] [ 86%] Built target os_sensor_component
+[76.498s] [ 87%] [32m[1mLinking CXX shared library libos_image_component.so[0m
+[77.046s] [ 87%] Built target os_image_component
+[97.220s] [ 88%] [32m[1mLinking CXX shared library libos_cloud_component.so[0m
+[97.790s] [ 88%] Built target os_cloud_component
+[97.816s] [ 90%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node.cpp.o[0m
+[97.817s] [ 90%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node_base.cpp.o[0m
+[97.819s] [ 91%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/src/os_ros.cpp.o[0m
+[117.633s] [ 92%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/test_main.cpp.o[0m
+[119.079s] [ 93%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/lock_free_ring_buffer_test.cpp.o[0m
+[119.317s] [ 94%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o[0m
+[121.858s] [ 95%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_transform_test.cpp.o[0m
+[138.189s] [ 96%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_cloud_compose_test.cpp.o[0m
+[151.826s] [ 97%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_accessor_test.cpp.o[0m
+[156.680s] gmake[2]: *** [CMakeFiles/ouster_ros_test.dir/build.make:118: CMakeFiles/ouster_ros_test.dir/test/point_accessor_test.cpp.o] Interrupt
+[156.681s] gmake[1]: *** [CMakeFiles/Makefile2:631: CMakeFiles/ouster_ros_test.dir/all] Interrupt
+[156.681s] gmake[2]: *** [CMakeFiles/os_driver_component.dir/build.make:104: CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o] Interrupt
+[156.683s] gmake[1]: *** [CMakeFiles/Makefile2:573: CMakeFiles/os_driver_component.dir/all] Interrupt
+[156.683s] gmake: *** [Makefile:166: all] Interrupt
+[156.814s] Invoked command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros -- -j4 -l4

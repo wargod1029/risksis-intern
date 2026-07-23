@@ -1,0 +1,65 @@
+[35m[1mConsolidate compiler generated dependencies of target nmea[0m
+[35m[1mConsolidate compiler generated dependencies of target os_sensor[0m
+[35m[1mConsolidate compiler generated dependencies of target os_replay[0m
+[34m[1mGenerating build info header[0m
+[ 10%] Built target nmea
+[ 12%] Built target os_replay
+[ 14%] Built target os_sensor
+[35m[1mConsolidate compiler generated dependencies of target os_image[0m
+[35m[1mConsolidate compiler generated dependencies of target os_cloud[0m
+[35m[1mConsolidate compiler generated dependencies of target os_driver[0m
+[ 14%] Built target ouster_generate_header
+[ 16%] Built target os_image
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[ 18%] Built target os_cloud
+[ 20%] Built target os_driver
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 22%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target ouster_client[0m
+[ 23%] Built target gtest
+[ 66%] Built target ouster_client
+[35m[1mConsolidate compiler generated dependencies of target ouster_sensor[0m
+[ 73%] Built target ouster_sensor
+[35m[1mConsolidate compiler generated dependencies of target ouster_ros_library[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/ouster_ros_library.dir/src/os_ros.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libouster_ros_library.so[0m
+[ 76%] Built target ouster_ros_library
+[ 77%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_processing_node_base.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_processing_node_base.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/os_replay_component.dir/src/os_replay_node.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/os_sensor_component.dir/src/os_sensor_node.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/os_image_component.dir/src/os_image_node.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library libos_replay_component.so[0m
+[ 85%] Built target os_replay_component
+[01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:53:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   53 |     void metadata_handler(const std_msgs::msg::String::ConstPtr& metadata_msg[01;35m[K)[m[K {
+      |                                                                              [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7[m[K,
+                 from [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/include/ouster_ros/os_processing_node_base.h:14[m[K,
+                 from [01m[K/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros/src/os_image_node.cpp:21[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:106:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  106 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[ 86%] [32m[1mLinking CXX shared library libos_sensor_component.so[0m
+[ 86%] Built target os_sensor_component
+[ 87%] [32m[1mLinking CXX shared library libos_image_component.so[0m
+[ 87%] Built target os_image_component
+[ 88%] [32m[1mLinking CXX shared library libos_cloud_component.so[0m
+[ 88%] Built target os_cloud_component
+[ 90%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_sensor_node_base.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/src/os_ros.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/test_main.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/lock_free_ring_buffer_test.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_transform_test.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_cloud_compose_test.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/ouster_ros_test.dir/test/point_accessor_test.cpp.o[0m
+gmake[2]: *** [CMakeFiles/ouster_ros_test.dir/build.make:118: CMakeFiles/ouster_ros_test.dir/test/point_accessor_test.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:631: CMakeFiles/ouster_ros_test.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/os_driver_component.dir/build.make:104: CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:573: CMakeFiles/os_driver_component.dir/all] Interrupt
+gmake: *** [Makefile:166: all] Interrupt

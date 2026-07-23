@@ -1,0 +1,747 @@
+[0.000000] (-) TimerEvent: {}
+[0.000262] (-) JobUnselected: {'identifier': 'ouster_sensor_msgs'}
+[0.000723] (ouster_ros) JobQueued: {'identifier': 'ouster_ros', 'dependencies': OrderedDict([('ouster_sensor_msgs', '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_sensor_msgs')])}
+[0.000847] (ouster_ros) JobStarted: {'identifier': 'ouster_ros'}
+[0.011857] (ouster_ros) JobProgress: {'identifier': 'ouster_ros', 'progress': 'cmake'}
+[0.014285] (ouster_ros) JobProgress: {'identifier': 'ouster_ros', 'progress': 'build'}
+[0.017048] (ouster_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros', '--', '-j4', '-l4'], 'cwd': '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'en_US:en'), ('USER', 'risksis'), ('LC_TIME', 'en_US.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIT_EDITOR', ':'), ('GIO_MODULE_DIR', '/home/risksis/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/247/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('STM32CubeMX_PATH', '/home/risksis/STM32CubeMX'), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/risksis'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/risksis/Documents/intern/ROS_noetic'), ('TERM_PROGRAM_VERSION', '1.124.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/247/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/risksis/.nvm/versions/node/v22.16.0/bin'), ('NVM_INC', '/home/risksis/.nvm/versions/node/v22.16.0/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/risksis/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/247/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/247/usr/share/code/code'), ('MANAGERPID', '1616'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1796'), ('BUNDLED_DEBUGPY_PATH', '/home/risksis/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '27033'), ('NVM_DIR', '/home/risksis/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risksis'), ('JOURNAL_STREAM', '8:15781'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'risksis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/opt/ros/humble/bin:/home/risksis/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/risksis/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/risksis/.local/bin:/home/risksis/.nvm/versions/node/v22.16.0/bin:/home/risksis/anaconda3/condabin:/home/risksis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/risksis/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/risksis-N100-1:@/tmp/.ICE-unix/1773,unix/risksis-N100-1:/tmp/.ICE-unix/1773'), ('GTK_EXE_PREFIX', '/snap/code/247/usr'), ('INVOCATION_ID', 'f9177c92ab50405fb6226ad3ad3b27dd'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/247/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/risksis/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-eb7d3ce7359d70b5.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/risksis/.config/Code/User/workspaceStorage/9140d555d2d658a10e7544d19758efaf/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/risksis/snap/code/247/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3LFVR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cd6eb4c58c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/risksis/snap/code/247/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/risksis/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros'), ('GIT_MERGE_AUTOEDIT', 'no'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '15be8c3af4ef43bb3df2715b11cc7823'), ('CONDA_EXE', '/home/risksis/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/risksis/snap/code/247/.local/share:/home/risksis/snap/code/247:/snap/code/247/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099178] (-) TimerEvent: {}
+[0.109358] (ouster_ros) StdoutLine: {'line': b'[ 11%] Built target nmea\n'}
+[0.111180] (ouster_ros) StdoutLine: {'line': b'\x1b[34m\x1b[1mGenerating build info header\x1b[0m\n'}
+[0.112958] (ouster_ros) StdoutLine: {'line': b'[ 13%] Built target os_sensor\n'}
+[0.126596] (ouster_ros) StdoutLine: {'line': b'[ 15%] Built target os_replay\n'}
+[0.159631] (ouster_ros) StdoutLine: {'line': b'[ 18%] Built target os_cloud\n'}
+[0.164333] (ouster_ros) StdoutLine: {'line': b'[ 20%] Built target os_image\n'}
+[0.165913] (ouster_ros) StdoutLine: {'line': b'[ 20%] Built target ouster_generate_header\n'}
+[0.175174] (ouster_ros) StdoutLine: {'line': b'[ 22%] Built target os_driver\n'}
+[0.199283] (-) TimerEvent: {}
+[0.244261] (ouster_ros) StdoutLine: {'line': b'[ 70%] Built target ouster_client\n'}
+[0.284888] (ouster_ros) StdoutLine: {'line': b'[ 78%] Built target ouster_sensor\n'}
+[0.299404] (-) TimerEvent: {}
+[0.334718] (ouster_ros) StdoutLine: {'line': b'[ 81%] Built target ouster_ros_library\n'}
+[0.384371] (ouster_ros) StdoutLine: {'line': b'[ 85%] Built target os_replay_component\n'}
+[0.392198] (ouster_ros) StdoutLine: {'line': b'[ 88%] Built target os_sensor_component\n'}
+[0.399512] (-) TimerEvent: {}
+[0.399761] (ouster_ros) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/os_cloud_component.dir/src/os_cloud_node.cpp.o\x1b[0m\n'}
+[0.410642] (ouster_ros) StdoutLine: {'line': b'[ 93%] Built target os_image_component\n'}
+[0.416682] (ouster_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target os_driver_component\x1b[0m\n'}
+[0.498898] (ouster_ros) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o\x1b[0m\n'}
+[0.499595] (-) TimerEvent: {}
+[0.601944] (-) TimerEvent: {}
+[0.702259] (-) TimerEvent: {}
+[0.802749] (-) TimerEvent: {}
+[0.903086] (-) TimerEvent: {}
+[1.003447] (-) TimerEvent: {}
+[1.103800] (-) TimerEvent: {}
+[1.204187] (-) TimerEvent: {}
+[1.307597] (-) TimerEvent: {}
+[1.409364] (-) TimerEvent: {}
+[1.512524] (-) TimerEvent: {}
+[1.613048] (-) TimerEvent: {}
+[1.713405] (-) TimerEvent: {}
+[1.813755] (-) TimerEvent: {}
+[1.916184] (-) TimerEvent: {}
+[2.016530] (-) TimerEvent: {}
+[2.116854] (-) TimerEvent: {}
+[2.217188] (-) TimerEvent: {}
+[2.317531] (-) TimerEvent: {}
+[2.417925] (-) TimerEvent: {}
+[2.518277] (-) TimerEvent: {}
+[2.620337] (-) TimerEvent: {}
+[2.721734] (-) TimerEvent: {}
+[2.822452] (-) TimerEvent: {}
+[2.924771] (-) TimerEvent: {}
+[3.025146] (-) TimerEvent: {}
+[3.128516] (-) TimerEvent: {}
+[3.232213] (-) TimerEvent: {}
+[3.332588] (-) TimerEvent: {}
+[3.432949] (-) TimerEvent: {}
+[3.536203] (-) TimerEvent: {}
+[3.636586] (-) TimerEvent: {}
+[3.736972] (-) TimerEvent: {}
+[3.837389] (-) TimerEvent: {}
+[3.937741] (-) TimerEvent: {}
+[4.038137] (-) TimerEvent: {}
+[4.138548] (-) TimerEvent: {}
+[4.238923] (-) TimerEvent: {}
+[4.341255] (-) TimerEvent: {}
+[4.441697] (-) TimerEvent: {}
+[4.542152] (-) TimerEvent: {}
+[4.643297] (-) TimerEvent: {}
+[4.744179] (-) TimerEvent: {}
+[4.847182] (-) TimerEvent: {}
+[4.947609] (-) TimerEvent: {}
+[5.048001] (-) TimerEvent: {}
+[5.148360] (-) TimerEvent: {}
+[5.248700] (-) TimerEvent: {}
+[5.349044] (-) TimerEvent: {}
+[5.449703] (-) TimerEvent: {}
+[5.550097] (-) TimerEvent: {}
+[5.650475] (-) TimerEvent: {}
+[5.750921] (-) TimerEvent: {}
+[5.851319] (-) TimerEvent: {}
+[5.951645] (-) TimerEvent: {}
+[6.051977] (-) TimerEvent: {}
+[6.152343] (-) TimerEvent: {}
+[6.252675] (-) TimerEvent: {}
+[6.353006] (-) TimerEvent: {}
+[6.453348] (-) TimerEvent: {}
+[6.553682] (-) TimerEvent: {}
+[6.654614] (-) TimerEvent: {}
+[6.755002] (-) TimerEvent: {}
+[6.855761] (-) TimerEvent: {}
+[6.956655] (-) TimerEvent: {}
+[7.057557] (-) TimerEvent: {}
+[7.160257] (-) TimerEvent: {}
+[7.260627] (-) TimerEvent: {}
+[7.361818] (-) TimerEvent: {}
+[7.464362] (-) TimerEvent: {}
+[7.564707] (-) TimerEvent: {}
+[7.665180] (-) TimerEvent: {}
+[7.765555] (-) TimerEvent: {}
+[7.865888] (-) TimerEvent: {}
+[7.966247] (-) TimerEvent: {}
+[8.066581] (-) TimerEvent: {}
+[8.166920] (-) TimerEvent: {}
+[8.267272] (-) TimerEvent: {}
+[8.367633] (-) TimerEvent: {}
+[8.467975] (-) TimerEvent: {}
+[8.568386] (-) TimerEvent: {}
+[8.668748] (-) TimerEvent: {}
+[8.769127] (-) TimerEvent: {}
+[8.869467] (-) TimerEvent: {}
+[8.969801] (-) TimerEvent: {}
+[9.070179] (-) TimerEvent: {}
+[9.170512] (-) TimerEvent: {}
+[9.270878] (-) TimerEvent: {}
+[9.371212] (-) TimerEvent: {}
+[9.471575] (-) TimerEvent: {}
+[9.572062] (-) TimerEvent: {}
+[9.672714] (-) TimerEvent: {}
+[9.773135] (-) TimerEvent: {}
+[9.873479] (-) TimerEvent: {}
+[9.973826] (-) TimerEvent: {}
+[10.074178] (-) TimerEvent: {}
+[10.174529] (-) TimerEvent: {}
+[10.274915] (-) TimerEvent: {}
+[10.375315] (-) TimerEvent: {}
+[10.475822] (-) TimerEvent: {}
+[10.576954] (-) TimerEvent: {}
+[10.679476] (-) TimerEvent: {}
+[10.780060] (-) TimerEvent: {}
+[10.880646] (-) TimerEvent: {}
+[10.981011] (-) TimerEvent: {}
+[11.081477] (-) TimerEvent: {}
+[11.181954] (-) TimerEvent: {}
+[11.282725] (-) TimerEvent: {}
+[11.383052] (-) TimerEvent: {}
+[11.483520] (-) TimerEvent: {}
+[11.583905] (-) TimerEvent: {}
+[11.684253] (-) TimerEvent: {}
+[11.784599] (-) TimerEvent: {}
+[11.885003] (-) TimerEvent: {}
+[11.985356] (-) TimerEvent: {}
+[12.085711] (-) TimerEvent: {}
+[12.186048] (-) TimerEvent: {}
+[12.286397] (-) TimerEvent: {}
+[12.386743] (-) TimerEvent: {}
+[12.488505] (-) TimerEvent: {}
+[12.589042] (-) TimerEvent: {}
+[12.689430] (-) TimerEvent: {}
+[12.789885] (-) TimerEvent: {}
+[12.890268] (-) TimerEvent: {}
+[12.990626] (-) TimerEvent: {}
+[13.091012] (-) TimerEvent: {}
+[13.191372] (-) TimerEvent: {}
+[13.291737] (-) TimerEvent: {}
+[13.393046] (-) TimerEvent: {}
+[13.493426] (-) TimerEvent: {}
+[13.595158] (-) TimerEvent: {}
+[13.695531] (-) TimerEvent: {}
+[13.795908] (-) TimerEvent: {}
+[13.896319] (-) TimerEvent: {}
+[13.998946] (-) TimerEvent: {}
+[14.099432] (-) TimerEvent: {}
+[14.202006] (-) TimerEvent: {}
+[14.302367] (-) TimerEvent: {}
+[14.402781] (-) TimerEvent: {}
+[14.503104] (-) TimerEvent: {}
+[14.603455] (-) TimerEvent: {}
+[14.703801] (-) TimerEvent: {}
+[14.804176] (-) TimerEvent: {}
+[14.904543] (-) TimerEvent: {}
+[15.004913] (-) TimerEvent: {}
+[15.105258] (-) TimerEvent: {}
+[15.205581] (-) TimerEvent: {}
+[15.306010] (-) TimerEvent: {}
+[15.406354] (-) TimerEvent: {}
+[15.506744] (-) TimerEvent: {}
+[15.607078] (-) TimerEvent: {}
+[15.707553] (-) TimerEvent: {}
+[15.808055] (-) TimerEvent: {}
+[15.908478] (-) TimerEvent: {}
+[16.008898] (-) TimerEvent: {}
+[16.109447] (-) TimerEvent: {}
+[16.209967] (-) TimerEvent: {}
+[16.310323] (-) TimerEvent: {}
+[16.410784] (-) TimerEvent: {}
+[16.511142] (-) TimerEvent: {}
+[16.611529] (-) TimerEvent: {}
+[16.711956] (-) TimerEvent: {}
+[16.812322] (-) TimerEvent: {}
+[16.912777] (-) TimerEvent: {}
+[17.013164] (-) TimerEvent: {}
+[17.116630] (-) TimerEvent: {}
+[17.216972] (-) TimerEvent: {}
+[17.317460] (-) TimerEvent: {}
+[17.417950] (-) TimerEvent: {}
+[17.520204] (-) TimerEvent: {}
+[17.620636] (-) TimerEvent: {}
+[17.721077] (-) TimerEvent: {}
+[17.822191] (-) TimerEvent: {}
+[17.922530] (-) TimerEvent: {}
+[18.022852] (-) TimerEvent: {}
+[18.123317] (-) TimerEvent: {}
+[18.224073] (-) TimerEvent: {}
+[18.324606] (-) TimerEvent: {}
+[18.425257] (-) TimerEvent: {}
+[18.525666] (-) TimerEvent: {}
+[18.626389] (-) TimerEvent: {}
+[18.729185] (-) TimerEvent: {}
+[18.829570] (-) TimerEvent: {}
+[18.929942] (-) TimerEvent: {}
+[19.030293] (-) TimerEvent: {}
+[19.131194] (-) TimerEvent: {}
+[19.231560] (-) TimerEvent: {}
+[19.332452] (-) TimerEvent: {}
+[19.432855] (-) TimerEvent: {}
+[19.533190] (-) TimerEvent: {}
+[19.633664] (-) TimerEvent: {}
+[19.734886] (-) TimerEvent: {}
+[19.835313] (-) TimerEvent: {}
+[19.935737] (-) TimerEvent: {}
+[20.038089] (-) TimerEvent: {}
+[20.138563] (-) TimerEvent: {}
+[20.240204] (-) TimerEvent: {}
+[20.342102] (-) TimerEvent: {}
+[20.443994] (-) TimerEvent: {}
+[20.545041] (-) TimerEvent: {}
+[20.645485] (-) TimerEvent: {}
+[20.745982] (-) TimerEvent: {}
+[20.846445] (-) TimerEvent: {}
+[20.946809] (-) TimerEvent: {}
+[21.047185] (-) TimerEvent: {}
+[21.147665] (-) TimerEvent: {}
+[21.248146] (-) TimerEvent: {}
+[21.348482] (-) TimerEvent: {}
+[21.448819] (-) TimerEvent: {}
+[21.549263] (-) TimerEvent: {}
+[21.649608] (-) TimerEvent: {}
+[21.749999] (-) TimerEvent: {}
+[21.851834] (-) TimerEvent: {}
+[21.954426] (-) TimerEvent: {}
+[22.056178] (-) TimerEvent: {}
+[22.156575] (-) TimerEvent: {}
+[22.259186] (-) TimerEvent: {}
+[22.359669] (-) TimerEvent: {}
+[22.460156] (-) TimerEvent: {}
+[22.560505] (-) TimerEvent: {}
+[22.660934] (-) TimerEvent: {}
+[22.761332] (-) TimerEvent: {}
+[22.863332] (-) TimerEvent: {}
+[22.963741] (-) TimerEvent: {}
+[23.064259] (-) TimerEvent: {}
+[23.164720] (-) TimerEvent: {}
+[23.265177] (-) TimerEvent: {}
+[23.365547] (-) TimerEvent: {}
+[23.465887] (-) TimerEvent: {}
+[23.566179] (-) TimerEvent: {}
+[23.666652] (-) TimerEvent: {}
+[23.767177] (-) TimerEvent: {}
+[23.870192] (-) TimerEvent: {}
+[23.970555] (-) TimerEvent: {}
+[24.071501] (-) TimerEvent: {}
+[24.173935] (-) TimerEvent: {}
+[24.275428] (-) TimerEvent: {}
+[24.375827] (-) TimerEvent: {}
+[24.477529] (-) TimerEvent: {}
+[24.577873] (-) TimerEvent: {}
+[24.678218] (-) TimerEvent: {}
+[24.778709] (-) TimerEvent: {}
+[24.879165] (-) TimerEvent: {}
+[24.979586] (-) TimerEvent: {}
+[25.080022] (-) TimerEvent: {}
+[25.180543] (-) TimerEvent: {}
+[25.280979] (-) TimerEvent: {}
+[25.381530] (-) TimerEvent: {}
+[25.482329] (-) TimerEvent: {}
+[25.582647] (-) TimerEvent: {}
+[25.683218] (-) TimerEvent: {}
+[25.784049] (-) TimerEvent: {}
+[25.884509] (-) TimerEvent: {}
+[25.985258] (-) TimerEvent: {}
+[26.087748] (-) TimerEvent: {}
+[26.188169] (-) TimerEvent: {}
+[26.288580] (-) TimerEvent: {}
+[26.388942] (-) TimerEvent: {}
+[26.489982] (-) TimerEvent: {}
+[26.590438] (-) TimerEvent: {}
+[26.691130] (-) TimerEvent: {}
+[26.791469] (-) TimerEvent: {}
+[26.892085] (-) TimerEvent: {}
+[26.993407] (-) TimerEvent: {}
+[27.093841] (-) TimerEvent: {}
+[27.194949] (-) TimerEvent: {}
+[27.295318] (-) TimerEvent: {}
+[27.396399] (-) TimerEvent: {}
+[27.496738] (-) TimerEvent: {}
+[27.597188] (-) TimerEvent: {}
+[27.697516] (-) TimerEvent: {}
+[27.797971] (-) TimerEvent: {}
+[27.898366] (-) TimerEvent: {}
+[27.998704] (-) TimerEvent: {}
+[28.099098] (-) TimerEvent: {}
+[28.199490] (-) TimerEvent: {}
+[28.299823] (-) TimerEvent: {}
+[28.400201] (-) TimerEvent: {}
+[28.500627] (-) TimerEvent: {}
+[28.600965] (-) TimerEvent: {}
+[28.701320] (-) TimerEvent: {}
+[28.801800] (-) TimerEvent: {}
+[28.902191] (-) TimerEvent: {}
+[29.002562] (-) TimerEvent: {}
+[29.105195] (-) TimerEvent: {}
+[29.205549] (-) TimerEvent: {}
+[29.305991] (-) TimerEvent: {}
+[29.407126] (-) TimerEvent: {}
+[29.507490] (-) TimerEvent: {}
+[29.607843] (-) TimerEvent: {}
+[29.709553] (-) TimerEvent: {}
+[29.809983] (-) TimerEvent: {}
+[29.910356] (-) TimerEvent: {}
+[30.010700] (-) TimerEvent: {}
+[30.113184] (-) TimerEvent: {}
+[30.213526] (-) TimerEvent: {}
+[30.313891] (-) TimerEvent: {}
+[30.414307] (-) TimerEvent: {}
+[30.514678] (-) TimerEvent: {}
+[30.615027] (-) TimerEvent: {}
+[30.715415] (-) TimerEvent: {}
+[30.817222] (-) TimerEvent: {}
+[30.917596] (-) TimerEvent: {}
+[31.018600] (-) TimerEvent: {}
+[31.119156] (-) TimerEvent: {}
+[31.219624] (-) TimerEvent: {}
+[31.320728] (-) TimerEvent: {}
+[31.421432] (-) TimerEvent: {}
+[31.523465] (-) TimerEvent: {}
+[31.623995] (-) TimerEvent: {}
+[31.725453] (-) TimerEvent: {}
+[31.826600] (-) TimerEvent: {}
+[31.926964] (-) TimerEvent: {}
+[32.027441] (-) TimerEvent: {}
+[32.128292] (-) TimerEvent: {}
+[32.229801] (-) TimerEvent: {}
+[32.330178] (-) TimerEvent: {}
+[32.430757] (-) TimerEvent: {}
+[32.534228] (-) TimerEvent: {}
+[32.634758] (-) TimerEvent: {}
+[32.735185] (-) TimerEvent: {}
+[32.835501] (-) TimerEvent: {}
+[32.935840] (-) TimerEvent: {}
+[33.036207] (-) TimerEvent: {}
+[33.136539] (-) TimerEvent: {}
+[33.236941] (-) TimerEvent: {}
+[33.337455] (-) TimerEvent: {}
+[33.437894] (-) TimerEvent: {}
+[33.538348] (-) TimerEvent: {}
+[33.638646] (-) TimerEvent: {}
+[33.742192] (-) TimerEvent: {}
+[33.842549] (-) TimerEvent: {}
+[33.943194] (-) TimerEvent: {}
+[34.043547] (-) TimerEvent: {}
+[34.146838] (-) TimerEvent: {}
+[34.247173] (-) TimerEvent: {}
+[34.347495] (-) TimerEvent: {}
+[34.447892] (-) TimerEvent: {}
+[34.548229] (-) TimerEvent: {}
+[34.648551] (-) TimerEvent: {}
+[34.748867] (-) TimerEvent: {}
+[34.849189] (-) TimerEvent: {}
+[34.949537] (-) TimerEvent: {}
+[35.049868] (-) TimerEvent: {}
+[35.150321] (-) TimerEvent: {}
+[35.250689] (-) TimerEvent: {}
+[35.351067] (-) TimerEvent: {}
+[35.452509] (-) TimerEvent: {}
+[35.552833] (-) TimerEvent: {}
+[35.653220] (-) TimerEvent: {}
+[35.753662] (-) TimerEvent: {}
+[35.854031] (-) TimerEvent: {}
+[35.954381] (-) TimerEvent: {}
+[36.054712] (-) TimerEvent: {}
+[36.155042] (-) TimerEvent: {}
+[36.255460] (-) TimerEvent: {}
+[36.355847] (-) TimerEvent: {}
+[36.456196] (-) TimerEvent: {}
+[36.556830] (-) TimerEvent: {}
+[36.657396] (-) TimerEvent: {}
+[36.757759] (-) TimerEvent: {}
+[36.860150] (-) TimerEvent: {}
+[36.960592] (-) TimerEvent: {}
+[37.062189] (-) TimerEvent: {}
+[37.162559] (-) TimerEvent: {}
+[37.262984] (-) TimerEvent: {}
+[37.363337] (-) TimerEvent: {}
+[37.463757] (-) TimerEvent: {}
+[37.564204] (-) TimerEvent: {}
+[37.664897] (-) TimerEvent: {}
+[37.765332] (-) TimerEvent: {}
+[37.865788] (-) TimerEvent: {}
+[37.966584] (-) TimerEvent: {}
+[38.067282] (-) TimerEvent: {}
+[38.170192] (-) TimerEvent: {}
+[38.270547] (-) TimerEvent: {}
+[38.371052] (-) TimerEvent: {}
+[38.471856] (-) TimerEvent: {}
+[38.572770] (-) TimerEvent: {}
+[38.673220] (-) TimerEvent: {}
+[38.775166] (-) TimerEvent: {}
+[38.878495] (-) TimerEvent: {}
+[38.981048] (-) TimerEvent: {}
+[39.081400] (-) TimerEvent: {}
+[39.184059] (-) TimerEvent: {}
+[39.284443] (-) TimerEvent: {}
+[39.384812] (-) TimerEvent: {}
+[39.489545] (-) TimerEvent: {}
+[39.589988] (-) TimerEvent: {}
+[39.690436] (-) TimerEvent: {}
+[39.790944] (-) TimerEvent: {}
+[39.891722] (-) TimerEvent: {}
+[39.992066] (-) TimerEvent: {}
+[40.096527] (-) TimerEvent: {}
+[40.198336] (-) TimerEvent: {}
+[40.302193] (-) TimerEvent: {}
+[40.402614] (-) TimerEvent: {}
+[40.503016] (-) TimerEvent: {}
+[40.604410] (-) TimerEvent: {}
+[40.704843] (-) TimerEvent: {}
+[40.805316] (-) TimerEvent: {}
+[40.906062] (-) TimerEvent: {}
+[41.006641] (-) TimerEvent: {}
+[41.107488] (-) TimerEvent: {}
+[41.208478] (-) TimerEvent: {}
+[41.309056] (-) TimerEvent: {}
+[41.409523] (-) TimerEvent: {}
+[41.510949] (-) TimerEvent: {}
+[41.613202] (-) TimerEvent: {}
+[41.713650] (-) TimerEvent: {}
+[41.814067] (-) TimerEvent: {}
+[41.914555] (-) TimerEvent: {}
+[42.017140] (-) TimerEvent: {}
+[42.117475] (-) TimerEvent: {}
+[42.217840] (-) TimerEvent: {}
+[42.318178] (-) TimerEvent: {}
+[42.418495] (-) TimerEvent: {}
+[42.520921] (-) TimerEvent: {}
+[42.621322] (-) TimerEvent: {}
+[42.721646] (-) TimerEvent: {}
+[42.821971] (-) TimerEvent: {}
+[42.922350] (-) TimerEvent: {}
+[43.023209] (-) TimerEvent: {}
+[43.123967] (-) TimerEvent: {}
+[43.224638] (-) TimerEvent: {}
+[43.325539] (-) TimerEvent: {}
+[43.425856] (-) TimerEvent: {}
+[43.526256] (-) TimerEvent: {}
+[43.626721] (-) TimerEvent: {}
+[43.727059] (-) TimerEvent: {}
+[43.827480] (-) TimerEvent: {}
+[43.927979] (-) TimerEvent: {}
+[44.030898] (-) TimerEvent: {}
+[44.133183] (-) TimerEvent: {}
+[44.233511] (-) TimerEvent: {}
+[44.333919] (-) TimerEvent: {}
+[44.434445] (-) TimerEvent: {}
+[44.534880] (-) TimerEvent: {}
+[44.635367] (-) TimerEvent: {}
+[44.735793] (-) TimerEvent: {}
+[44.836295] (-) TimerEvent: {}
+[44.936735] (-) TimerEvent: {}
+[45.037381] (-) TimerEvent: {}
+[45.137801] (-) TimerEvent: {}
+[45.238178] (-) TimerEvent: {}
+[45.338641] (-) TimerEvent: {}
+[45.438992] (-) TimerEvent: {}
+[45.539319] (-) TimerEvent: {}
+[45.639621] (-) TimerEvent: {}
+[45.741626] (-) TimerEvent: {}
+[45.842283] (-) TimerEvent: {}
+[45.945239] (-) TimerEvent: {}
+[46.045702] (-) TimerEvent: {}
+[46.148871] (-) TimerEvent: {}
+[46.249634] (-) TimerEvent: {}
+[46.350019] (-) TimerEvent: {}
+[46.450393] (-) TimerEvent: {}
+[46.551462] (-) TimerEvent: {}
+[46.652127] (-) TimerEvent: {}
+[46.753194] (-) TimerEvent: {}
+[46.853541] (-) TimerEvent: {}
+[46.954240] (-) TimerEvent: {}
+[47.054874] (-) TimerEvent: {}
+[47.155707] (-) TimerEvent: {}
+[47.256465] (-) TimerEvent: {}
+[47.358199] (-) TimerEvent: {}
+[47.458604] (-) TimerEvent: {}
+[47.558961] (-) TimerEvent: {}
+[47.659384] (-) TimerEvent: {}
+[47.760295] (-) TimerEvent: {}
+[47.860922] (-) TimerEvent: {}
+[47.961639] (-) TimerEvent: {}
+[48.062271] (-) TimerEvent: {}
+[48.163193] (-) TimerEvent: {}
+[48.263781] (-) TimerEvent: {}
+[48.368177] (-) TimerEvent: {}
+[48.468502] (-) TimerEvent: {}
+[48.568839] (-) TimerEvent: {}
+[48.669354] (-) TimerEvent: {}
+[48.769782] (-) TimerEvent: {}
+[48.872482] (-) TimerEvent: {}
+[48.972799] (-) TimerEvent: {}
+[49.073123] (-) TimerEvent: {}
+[49.173540] (-) TimerEvent: {}
+[49.275453] (-) TimerEvent: {}
+[49.375804] (-) TimerEvent: {}
+[49.476143] (-) TimerEvent: {}
+[49.576627] (-) TimerEvent: {}
+[49.677229] (-) TimerEvent: {}
+[49.777643] (-) TimerEvent: {}
+[49.877993] (-) TimerEvent: {}
+[49.978370] (-) TimerEvent: {}
+[50.078815] (-) TimerEvent: {}
+[50.179169] (-) TimerEvent: {}
+[50.279539] (-) TimerEvent: {}
+[50.379892] (-) TimerEvent: {}
+[50.481062] (-) TimerEvent: {}
+[50.582308] (-) TimerEvent: {}
+[50.682676] (-) TimerEvent: {}
+[50.783159] (-) TimerEvent: {}
+[50.885474] (-) TimerEvent: {}
+[50.985786] (-) TimerEvent: {}
+[51.087182] (-) TimerEvent: {}
+[51.187503] (-) TimerEvent: {}
+[51.289177] (-) TimerEvent: {}
+[51.389589] (-) TimerEvent: {}
+[51.490016] (-) TimerEvent: {}
+[51.593177] (-) TimerEvent: {}
+[51.693563] (-) TimerEvent: {}
+[51.793893] (-) TimerEvent: {}
+[51.894250] (-) TimerEvent: {}
+[51.994571] (-) TimerEvent: {}
+[52.094886] (-) TimerEvent: {}
+[52.195181] (-) TimerEvent: {}
+[52.295491] (-) TimerEvent: {}
+[52.398926] (-) TimerEvent: {}
+[52.502270] (-) TimerEvent: {}
+[52.602669] (-) TimerEvent: {}
+[52.705186] (-) TimerEvent: {}
+[52.805562] (-) TimerEvent: {}
+[52.905927] (-) TimerEvent: {}
+[53.006338] (-) TimerEvent: {}
+[53.107606] (-) TimerEvent: {}
+[53.208534] (-) TimerEvent: {}
+[53.309156] (-) TimerEvent: {}
+[53.409585] (-) TimerEvent: {}
+[53.510026] (-) TimerEvent: {}
+[53.610472] (-) TimerEvent: {}
+[53.710792] (-) TimerEvent: {}
+[53.811120] (-) TimerEvent: {}
+[53.911464] (-) TimerEvent: {}
+[54.011864] (-) TimerEvent: {}
+[54.112721] (-) TimerEvent: {}
+[54.213074] (-) TimerEvent: {}
+[54.316178] (-) TimerEvent: {}
+[54.416538] (-) TimerEvent: {}
+[54.516905] (-) TimerEvent: {}
+[54.617278] (-) TimerEvent: {}
+[54.717779] (-) TimerEvent: {}
+[54.818558] (-) TimerEvent: {}
+[54.919100] (-) TimerEvent: {}
+[55.021189] (-) TimerEvent: {}
+[55.121528] (-) TimerEvent: {}
+[55.221843] (-) TimerEvent: {}
+[55.322682] (-) TimerEvent: {}
+[55.423010] (-) TimerEvent: {}
+[55.523442] (-) TimerEvent: {}
+[55.623897] (-) TimerEvent: {}
+[55.724367] (-) TimerEvent: {}
+[55.824809] (-) TimerEvent: {}
+[55.925186] (-) TimerEvent: {}
+[56.025567] (-) TimerEvent: {}
+[56.126706] (-) TimerEvent: {}
+[56.227089] (-) TimerEvent: {}
+[56.327532] (-) TimerEvent: {}
+[56.427925] (-) TimerEvent: {}
+[56.528894] (-) TimerEvent: {}
+[56.606247] (ouster_ros) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library libos_driver_component.so\x1b[0m\n'}
+[56.629001] (-) TimerEvent: {}
+[56.729323] (-) TimerEvent: {}
+[56.829773] (-) TimerEvent: {}
+[56.930356] (-) TimerEvent: {}
+[57.031171] (-) TimerEvent: {}
+[57.131730] (-) TimerEvent: {}
+[57.232168] (-) TimerEvent: {}
+[57.301402] (ouster_ros) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library libos_cloud_component.so\x1b[0m\n'}
+[57.330565] (ouster_ros) StdoutLine: {'line': b'[ 98%] Built target os_driver_component\n'}
+[57.332252] (-) TimerEvent: {}
+[57.432538] (-) TimerEvent: {}
+[57.532883] (-) TimerEvent: {}
+[57.633211] (-) TimerEvent: {}
+[57.733608] (-) TimerEvent: {}
+[57.833990] (-) TimerEvent: {}
+[57.934321] (-) TimerEvent: {}
+[57.939299] (ouster_ros) StdoutLine: {'line': b'[100%] Built target os_cloud_component\n'}
+[57.957093] (ouster_ros) CommandEnded: {'returncode': 0}
+[57.959792] (ouster_ros) JobProgress: {'identifier': 'ouster_ros', 'progress': 'install'}
+[57.969161] (ouster_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros'], 'cwd': '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'github_copilot_vscode_agent'), ('LANGUAGE', 'en_US:en'), ('USER', 'risksis'), ('LC_TIME', 'en_US.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIT_EDITOR', ':'), ('GIO_MODULE_DIR', '/home/risksis/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/247/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('STM32CubeMX_PATH', '/home/risksis/STM32CubeMX'), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('COPILOT_AGENT', '1'), ('HOME', '/home/risksis'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/risksis/Documents/intern/ROS_noetic'), ('TERM_PROGRAM_VERSION', '1.124.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/247/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/risksis/.nvm/versions/node/v22.16.0/bin'), ('NVM_INC', '/home/risksis/.nvm/versions/node/v22.16.0/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/risksis/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/247/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/247/usr/share/code/code'), ('MANAGERPID', '1616'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1796'), ('BUNDLED_DEBUGPY_PATH', '/home/risksis/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '27033'), ('NVM_DIR', '/home/risksis/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'risksis'), ('JOURNAL_STREAM', '8:15781'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'risksis'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('HISTCONTROL', 'ignorespace'), ('PATH', '/opt/ros/humble/bin:/home/risksis/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/risksis/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/risksis/.local/bin:/home/risksis/.nvm/versions/node/v22.16.0/bin:/home/risksis/anaconda3/condabin:/home/risksis/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/risksis/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/risksis-N100-1:@/tmp/.ICE-unix/1773,unix/risksis-N100-1:/tmp/.ICE-unix/1773'), ('GTK_EXE_PREFIX', '/snap/code/247/usr'), ('INVOCATION_ID', 'f9177c92ab50405fb6226ad3ad3b27dd'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/247/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/risksis/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-eb7d3ce7359d70b5.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/risksis/.config/Code/User/workspaceStorage/9140d555d2d658a10e7544d19758efaf/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/risksis/snap/code/247/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3LFVR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cd6eb4c58c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/risksis/snap/code/247/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/risksis/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros'), ('GIT_MERGE_AUTOEDIT', 'no'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '15be8c3af4ef43bb3df2715b11cc7823'), ('CONDA_EXE', '/home/risksis/anaconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/risksis/snap/code/247/.local/share:/home/risksis/snap/code/247:/snap/code/247/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[57.981778] (ouster_ros) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[57.982049] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_sensor\n'}
+[57.982444] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_replay\n'}
+[57.982720] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_cloud\n'}
+[57.983044] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_image\n'}
+[57.983433] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_driver\n'}
+[57.983733] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libouster_ros_library.so\n'}
+[57.984066] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_sensor_component.so\n'}
+[57.984410] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_replay_component.so\n'}
+[57.984809] (ouster_ros) StdoutLine: {'line': b'-- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_cloud_component.so\n'}
+[57.995387] (ouster_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_cloud_component.so" to ""\n'}
+[57.997227] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_image_component.so\n'}
+[57.997400] (ouster_ros) StdoutLine: {'line': b'-- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_driver_component.so\n'}
+[58.005402] (ouster_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_driver_component.so" to ""\n'}
+[58.005706] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros/\n'}
+[58.005984] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//impl\n'}
+[58.006142] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//impl/file_util.h\n'}
+[58.006298] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//os_ros.h\n'}
+[58.006387] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//os_point.h\n'}
+[58.006470] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//sensor_point_types.h\n'}
+[58.006552] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//visibility_control.h\n'}
+[58.006631] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//common_point_types.h\n'}
+[58.006706] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//os_sensor_node_base.h\n'}
+[58.006781] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//os_processing_node_base.h\n'}
+[58.006858] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//color_point.h\n'}
+[58.006942] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster\n'}
+[58.007036] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl\n'}
+[58.007188] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/threadsafe_queue.h\n'}
+[58.007279] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/logging.h\n'}
+[58.007422] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/ring_buffer.h\n'}
+[58.007553] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/downsample_impl.h\n'}
+[58.007700] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/threadpool.h\n'}
+[58.007889] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/deprecated\n'}
+[58.007995] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/deprecated/types_enums.h\n'}
+[58.008089] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/deprecated/chanfieldtype_enums.h\n'}
+[58.008291] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/transform_homogeneous.h\n'}
+[58.008394] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/open_source_impl.h\n'}
+[58.008479] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/packet_writer.h\n'}
+[58.008558] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/json_tools.h\n'}
+[58.008636] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h\n'}
+[58.008713] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/profile_extension.h\n'}
+[58.008789] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/transform_vector.h\n'}
+[58.008960] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/transform_typedefs.h\n'}
+[58.009253] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/transform_quaternion.h\n'}
+[58.009381] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/idx_range.h\n'}
+[58.009461] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/iterator_base.h\n'}
+[58.009538] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/transformation.h\n'}
+[58.009622] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/cuda_macros.h\n'}
+[58.009699] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/coord.h\n'}
+[58.009778] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/downsample.h\n'}
+[58.009975] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/eigen.h\n'}
+[58.010189] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/array_view.h\n'}
+[58.010407] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/visibility.h\n'}
+[58.010560] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/xyzlut.h\n'}
+[58.010652] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/version.h\n'}
+[58.010749] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/pose_conversion.h\n'}
+[58.010843] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/mesh.h\n'}
+[58.011027] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/scan_source_utils.h\n'}
+[58.011195] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/image_processing.h\n'}
+[58.011286] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/scan_source.h\n'}
+[58.011369] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/pose_util.h\n'}
+[58.011448] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/open_source.h\n'}
+[58.011534] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/vector_streambuf.h\n'}
+[58.011618] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/compat_ops.h\n'}
+[58.011701] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/chanfield.h\n'}
+[58.011780] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/cartesian.h\n'}
+[58.011858] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/zone_lut.h\n'}
+[58.011937] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/lidar_scan.h\n'}
+[58.012017] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/stl.h\n'}
+[58.012097] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/packet_source.h\n'}
+[58.012266] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/ray.h\n'}
+[58.012349] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/triangle.h\n'}
+[58.012429] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/defaults.h\n'}
+[58.012519] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/json_tools.h\n'}
+[58.012599] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/field.h\n'}
+[58.012678] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/packet.h\n'}
+[58.012758] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/io_type.h\n'}
+[58.012838] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/zone_state.h\n'}
+[58.012922] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/zone.h\n'}
+[58.013000] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/error_handler.h\n'}
+[58.013076] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/beam_config.h\n'}
+[58.013167] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/cloud_io.h\n'}
+[58.013248] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/types.h\n'}
+[58.013330] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/normals.h\n'}
+[58.013410] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/zone_monitor.h\n'}
+[58.013488] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/typedefs.h\n'}
+[58.013566] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/sha256.h\n'}
+[58.013645] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/metadata.h\n'}
+[58.013722] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/lidar_scan_set.h\n'}
+[58.013798] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/deprecation.h\n'}
+[58.013873] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/zrb.h\n'}
+[58.013950] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/nonstd\n'}
+[58.014047] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/nonstd/optional.hpp\n'}
+[58.014248] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/LICENSE\n'}
+[58.014332] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch\n'}
+[58.014410] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py\n'}
+[58.014492] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/replay_pcap.launch.xml\n'}
+[58.014579] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/record.launch.xml\n'}
+[58.014659] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py\n'}
+[58.015185] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/record.composite.launch.xml\n'}
+[58.015460] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml\n'}
+[58.015784] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml\n'}
+[58.019462] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml\n'}
+[58.019613] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/replay.composite.launch.xml\n'}
+[58.020590] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml\n'}
+[58.021329] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/driver_launch.py\n'}
+[58.021482] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/driver.launch.py\n'}
+[58.021583] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml\n'}
+[58.021724] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config\n'}
+[58.021815] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/community_driver.rviz\n'}
+[58.021897] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/community_driver_config.yaml\n'}
+[58.021990] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml\n'}
+[58.022101] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz\n'}
+[58.022250] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/viz-reliable.rviz\n'}
+[58.022333] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/driver_params.yaml\n'}
+[58.022413] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/os_sensor_cloud_image_params.yaml\n'}
+[58.022492] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/library_path.sh\n'}
+[58.022570] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/library_path.dsv\n'}
+[58.022648] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros\n'}
+[58.022734] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros\n'}
+[58.022809] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh\n'}
+[58.022885] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv\n'}
+[58.022969] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/path.sh\n'}
+[58.023046] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/path.dsv\n'}
+[58.023128] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/local_setup.bash\n'}
+[58.026353] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/local_setup.sh\n'}
+[58.026452] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/local_setup.zsh\n'}
+[58.026539] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/local_setup.dsv\n'}
+[58.026645] (ouster_ros) StdoutLine: {'line': b'-- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/package.dsv\n'}
+[58.026728] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros\n'}
+[58.026808] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros\n'}
+[58.026885] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[58.026962] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[58.027041] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[58.027125] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake\n'}
+[58.027312] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake\n'}
+[58.027448] (ouster_ros) StdoutLine: {'line': b'-- Up-to-date: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/package.xml\n'}
+[58.027661] (ouster_ros) CommandEnded: {'returncode': 0}
+[58.034592] (-) TimerEvent: {}
+[58.054014] (ouster_ros) JobEnded: {'identifier': 'ouster_ros', 'rc': 0}
+[58.055712] (-) EventReactorShutdown: {}

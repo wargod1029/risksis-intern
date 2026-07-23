@@ -1,0 +1,208 @@
+[0.019s] Invoking command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros
+[0.036s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.196s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.229s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.232s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.238s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.297s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.298s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.399s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.456s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.475s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.491s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.521s] -- Found ouster_sensor_msgs: 0.14.2 (/opt/ros/humble/share/ouster_sensor_msgs/cmake)
+[0.534s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[0.543s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.566s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.577s] -- looking for PCL_COMMON
+[0.577s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.601s] -- Found tf2_eigen: 0.25.20 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.678s] -- Using OusterSDK version from VERSION file: 0.16.2
+[0.851s] -- Configuring done
+[0.999s] -- Generating done
+[1.048s] -- Build files have been written to: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros
+[1.090s] Invoked command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/src/ouster-ros/ouster-ros -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_INSTALL_PREFIX=/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros
+[1.091s] Invoking command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros -- -j4 -l4
+[1.163s] [35m[1mConsolidate compiler generated dependencies of target os_replay[0m
+[1.177s] [35m[1mConsolidate compiler generated dependencies of target os_sensor[0m
+[1.180s] [35m[1mConsolidate compiler generated dependencies of target nmea[0m
+[1.190s] [  2%] Built target os_replay
+[1.208s] [35m[1mConsolidate compiler generated dependencies of target os_cloud[0m
+[1.211s] [34m[1mGenerating build info header[0m
+[1.235s] [  4%] Built target os_sensor
+[1.244s] [  6%] Built target os_cloud
+[1.258s] [35m[1mConsolidate compiler generated dependencies of target os_image[0m
+[1.263s] [ 18%] Built target ouster_generate_header
+[1.264s] [ 18%] Built target nmea
+[1.275s] [35m[1mConsolidate compiler generated dependencies of target os_driver[0m
+[1.292s] [ 20%] Built target os_image
+[1.308s] [35m[1mConsolidate compiler generated dependencies of target ouster_client[0m
+[1.324s] [ 22%] Built target os_driver
+[1.439s] [ 70%] Built target ouster_client
+[1.457s] [35m[1mConsolidate compiler generated dependencies of target ouster_sensor[0m
+[1.502s] [ 78%] Built target ouster_sensor
+[1.519s] [35m[1mConsolidate compiler generated dependencies of target ouster_ros_library[0m
+[1.562s] [ 81%] Built target ouster_ros_library
+[1.596s] [35m[1mConsolidate compiler generated dependencies of target os_cloud_component[0m
+[1.603s] [35m[1mConsolidate compiler generated dependencies of target os_sensor_component[0m
+[1.603s] [35m[1mConsolidate compiler generated dependencies of target os_image_component[0m
+[1.618s] [35m[1mConsolidate compiler generated dependencies of target os_replay_component[0m
+[1.678s] [ 85%] Built target os_cloud_component
+[1.692s] [ 90%] Built target os_image_component
+[1.696s] [ 92%] Built target os_replay_component
+[1.709s] [ 95%] Built target os_sensor_component
+[1.713s] [35m[1mConsolidate compiler generated dependencies of target os_driver_component[0m
+[1.758s] [ 96%] [32mBuilding CXX object CMakeFiles/os_driver_component.dir/src/os_driver_node.cpp.o[0m
+[49.150s] [ 97%] [32m[1mLinking CXX shared library libos_driver_component.so[0m
+[49.725s] [100%] Built target os_driver_component
+[49.744s] Invoked command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros -- -j4 -l4
+[49.756s] Invoking command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros
+[49.768s] -- Install configuration: "Release"
+[49.769s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_sensor
+[49.769s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_sensor" to ""
+[49.769s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_replay
+[49.769s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_replay" to ""
+[49.769s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_cloud
+[49.769s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_cloud" to ""
+[49.770s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_image
+[49.770s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_image" to ""
+[49.770s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_driver
+[49.771s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/ouster_ros/os_driver" to ""
+[49.773s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libouster_ros_library.so
+[49.776s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libouster_ros_library.so" to ""
+[49.777s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_sensor_component.so
+[49.778s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_sensor_component.so" to ""
+[49.778s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_replay_component.so
+[49.779s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_replay_component.so" to ""
+[49.779s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_cloud_component.so
+[49.784s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_cloud_component.so" to ""
+[49.785s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_image_component.so
+[49.787s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_image_component.so" to ""
+[49.787s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_driver_component.so
+[49.792s] -- Set runtime path of "/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/lib/libos_driver_component.so" to ""
+[49.792s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros/
+[49.792s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//impl
+[49.792s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//impl/file_util.h
+[49.792s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//os_ros.h
+[49.792s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//os_point.h
+[49.792s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//sensor_point_types.h
+[49.793s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//visibility_control.h
+[49.793s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//common_point_types.h
+[49.793s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//os_sensor_node_base.h
+[49.793s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//os_processing_node_base.h
+[49.793s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster_ros//color_point.h
+[49.793s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster
+[49.793s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl
+[49.793s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/threadsafe_queue.h
+[49.793s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/logging.h
+[49.794s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/ring_buffer.h
+[49.794s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/downsample_impl.h
+[49.794s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/threadpool.h
+[49.794s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/deprecated
+[49.794s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/deprecated/types_enums.h
+[49.794s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/deprecated/chanfieldtype_enums.h
+[49.794s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/transform_homogeneous.h
+[49.794s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/open_source_impl.h
+[49.795s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/packet_writer.h
+[49.795s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/json_tools.h
+[49.795s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/lidar_scan_impl.h
+[49.795s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/profile_extension.h
+[49.795s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/transform_vector.h
+[49.795s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/transform_typedefs.h
+[49.796s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/transform_quaternion.h
+[49.796s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/idx_range.h
+[49.799s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/iterator_base.h
+[49.801s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/transformation.h
+[49.801s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/impl/cuda_macros.h
+[49.802s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/coord.h
+[49.802s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/downsample.h
+[49.802s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/eigen.h
+[49.802s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/array_view.h
+[49.803s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/visibility.h
+[49.804s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/xyzlut.h
+[49.804s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/version.h
+[49.804s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/pose_conversion.h
+[49.804s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/mesh.h
+[49.804s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/scan_source_utils.h
+[49.804s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/image_processing.h
+[49.804s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/scan_source.h
+[49.805s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/pose_util.h
+[49.805s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/open_source.h
+[49.805s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/vector_streambuf.h
+[49.805s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/compat_ops.h
+[49.805s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/chanfield.h
+[49.805s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/cartesian.h
+[49.805s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/zone_lut.h
+[49.805s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/lidar_scan.h
+[49.805s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/stl.h
+[49.805s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/packet_source.h
+[49.806s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/ray.h
+[49.806s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/triangle.h
+[49.806s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/defaults.h
+[49.806s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/json_tools.h
+[49.806s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/field.h
+[49.806s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/packet.h
+[49.806s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/io_type.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/zone_state.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/zone.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/error_handler.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/beam_config.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/cloud_io.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/types.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/normals.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/zone_monitor.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/typedefs.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/sha256.h
+[49.807s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/metadata.h
+[49.808s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/lidar_scan_set.h
+[49.808s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/deprecation.h
+[49.808s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/ouster/zrb.h
+[49.808s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/nonstd
+[49.808s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/include/nonstd/optional.hpp
+[49.808s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/LICENSE
+[49.808s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch
+[49.808s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.py
+[49.808s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/replay_pcap.launch.xml
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/record.launch.xml
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.py
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/record.composite.launch.xml
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/rviz.launch.xml
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/replay.launch.xml
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/sensor_mtp.launch.xml
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/replay.composite.launch.xml
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/sensor.launch.xml
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/driver_launch.py
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/driver.launch.py
+[49.809s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/launch/sensor.composite.launch.xml
+[49.810s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config
+[49.810s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/community_driver.rviz
+[49.810s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/community_driver_config.yaml
+[49.810s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/metadata-qos-override.yaml
+[49.810s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/viz.rviz
+[49.810s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/viz-reliable.rviz
+[49.810s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/driver_params.yaml
+[49.810s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/config/os_sensor_cloud_image_params.yaml
+[49.810s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/library_path.sh
+[49.810s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/library_path.dsv
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ament_index/resource_index/package_run_dependencies/ouster_ros
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ament_index/resource_index/parent_prefix_path/ouster_ros
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.sh
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/ament_prefix_path.dsv
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/path.sh
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/environment/path.dsv
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/local_setup.bash
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/local_setup.sh
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/local_setup.zsh
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/local_setup.dsv
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/package.dsv
+[49.811s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ament_index/resource_index/packages/ouster_ros
+[49.812s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ament_index/resource_index/rclcpp_components/ouster_ros
+[49.812s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.812s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.812s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[49.812s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig.cmake
+[49.812s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/cmake/ouster_rosConfig-version.cmake
+[49.812s] -- Installing: /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/install/ouster_ros/share/ouster_ros/package.xml
+[49.816s] Invoked command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros

@@ -1,0 +1,4 @@
+Invoking command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros -- -j4 -l4
+Invoked command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros -- -j4 -l4
+Invoking command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros
+Invoked command in '/home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/risksis/Documents/intern/ROS_noetic/ouster_humble_ws/build/ouster_ros
