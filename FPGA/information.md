@@ -1,14 +1,8 @@
 # Standard AMD Workflow to Put AI into an FPGA
 
-> **Legend:** 
-> - ✅ **[correct]** — statement is accurate
-> - ⚠️ **[doubtable]** — plausible but imprecise, outdated, or not universally true
-> - ❌ **[incorrect]** — statement is factually wrong
-
 ---
 
-The AMD ecosystem provides four major tools for deploying AI on FPGA/SoC hardware: ✅ **[correct]**
-
+The AMD ecosystem provides four major tools for deploying AI on FPGA/SoC hardware: 
 | Tool | Role |
 |------|------|
 | **Vitis AI** | AI-model quantization, compilation, and runtime (the AI-specific pipeline) |
@@ -16,8 +10,7 @@ The AMD ecosystem provides four major tools for deploying AI on FPGA/SoC hardwar
 | **Vivado** | Traditional FPGA design: RTL synthesis, place-and-route, IP integration, bitstream generation |
 | **Vitis** | Unified software platform: host application, PS–PL linking, platform creation, system debug |
 
-> **Typical target hardware:** AMD Zynq MPSoC / Zynq UltraScale+ (e.g., ZCU102, ZCU104, Kria SOM) and Versal ACAP boards. These combine an ARM processing system (PS) with FPGA programmable logic (PL), allowing the DPU to sit in the PL while Linux and VART run on the PS. ✅ **[correct]**
-
+> **Typical target hardware:** AMD Zynq MPSoC / Zynq UltraScale+ (e.g., ZCU102, ZCU104, Kria SOM) and Versal ACAP boards. These combine an ARM processing system (PS) with FPGA programmable logic (PL), allowing the DPU to sit in the PL while Linux and VART run on the PS. 
 ---
 
 ## Workflow Overview
@@ -41,42 +34,30 @@ PyTorch / TensorFlow
    ⑤  VART / Vitis AI Library   →  host application (C++ / Python)
 ```
 
-✅ **[correct]** — This is the canonical AMD Vitis AI workflow.
+This is the canonical AMD Vitis AI workflow.
 
 ---
 
 ## Step 1 — Train & Export
 
-- Train your model in **PyTorch** or **TensorFlow** (float32). ✅ **[correct]**
-- Export the trained model to **ONNX** (Open Neural Network Exchange), or pass the float model directly into Vitis AI if the framework is natively supported. ✅ **[correct]** — Vitis AI accepts both ONNX and native TensorFlow/PyTorch formats.
+- Train your model in **PyTorch** or **TensorFlow** (float32). - Export the trained model to **ONNX** (Open Neural Network Exchange), or pass the float model directly into Vitis AI if the framework is natively supported. Vitis AI accepts both ONNX and native TensorFlow/PyTorch formats.
 
 ## Step 2 — Quantization (Vitis AI Quantizer)
 
-- Convert weights and activations from **float32 → INT8**. ✅ **[correct]**
-- Vitis AI performs **post-training quantization (PTQ)** using a small calibration dataset (100–1000 unlabeled samples) to analyse activation distributions. ✅ **[correct]**
-- If accuracy loss is unacceptable, **quantization-aware training (QAT)** can fine-tune the model with simulated quantization — use **Brevitas** (PyTorch) or **QKeras** / **TensorFlow Model Optimization**. ✅ **[correct]**
-
+- Convert weights and activations from **float32 → INT8**. - Vitis AI performs **post-training quantization (PTQ)** using a small calibration dataset (100–1000 unlabeled samples) to analyse activation distributions. - If accuracy loss is unacceptable, **quantization-aware training (QAT)** can fine-tune the model with simulated quantization — use **Brevitas** (PyTorch) or **QKeras** / **TensorFlow Model Optimization**. 
 
 ## Step 3 — Compilation (Vitis AI Compiler)
 
-- Feed the quantized model into the **Vitis AI Compiler**. ✅ **[correct]**
-- The compiler maps the model graph onto the target DPU architecture (specified by an `arch.json` file). It performs operator fusion (e.g., BatchNorm folded into Convolution), data-layout transformations, and instruction scheduling across DPU cores. ✅ **[correct]**
-- Output: a **`.xmodel`** file — the compiled instruction stream the DPU executes at runtime. ✅ **[correct]**
-
+- Feed the quantized model into the **Vitis AI Compiler**. - The compiler maps the model graph onto the target DPU architecture (specified by an `arch.json` file). It performs operator fusion (e.g., BatchNorm folded into Convolution), data-layout transformations, and instruction scheduling across DPU cores. - Output: a **`.xmodel`** file — the compiled instruction stream the DPU executes at runtime. 
 ## Step 4 — Hardware Platform (Vivado + Vitis)
 
-This is the hardware-design step that creates the FPGA bitstream containing the DPU: ✅ **[correct]**
-
-1. **Vivado** — integrate the **DPU IP core** into a block design. Configure the DPU (number of cores, BRAM/URAM allocation, supported convolution types). Add other necessary IP: clocking, resets, AXI interconnects, MIPI/CSI camera receivers, etc. Run synthesis, implementation (place-and-route), and generate the **bitstream** (`.bit`) and hardware hand-off file (`.xsa`). ✅ **[correct]**
-2. **Vitis** — import the `.xsa` from Vivado to create a **platform project**. The platform packages the hardware design with the software stack (FSBL, PMU firmware, Linux kernel, device tree) so the host application can communicate with the DPU. ✅ **[correct]**
-
-> **Vitis HLS** (optional / advanced): If your model contains operators the DPU does not natively support, write a custom accelerator in C/C++, synthesize it to RTL via Vitis HLS, and integrate the resulting IP block into the Vivado design alongside the DPU. ✅ **[correct]** — For most standard CNNs (ResNet, YOLO, MobileNet, VGG, etc.) this is unnecessary — the DPU handles them directly. ✅ **[correct]**
-
+This is the hardware-design step that creates the FPGA bitstream containing the DPU: 
+1. **Vivado** — integrate the **DPU IP core** into a block design. Configure the DPU (number of cores, BRAM/URAM allocation, supported convolution types). Add other necessary IP: clocking, resets, AXI interconnects, MIPI/CSI camera receivers, etc. Run synthesis, implementation (place-and-route), and generate the **bitstream** (`.bit`) and hardware hand-off file (`.xsa`). 2. **Vitis** — import the `.xsa` from Vivado to create a **platform project**. The platform packages the hardware design with the software stack (FSBL, PMU firmware, Linux kernel, device tree) so the host application can communicate with the DPU. 
+> **Vitis HLS** (optional / advanced): If your model contains operators the DPU does not natively support, write a custom accelerator in C/C++, synthesize it to RTL via Vitis HLS, and integrate the resulting IP block into the Vivado design alongside the DPU. For most standard CNNs (ResNet, YOLO, MobileNet, VGG, etc.) this is unnecessary — the DPU handles them directly. 
 ## Step 5 — Deployment & Host Application
 
 ### Flash the Bitstream
-Load the DPU bitstream onto the board. Common methods: ✅ **[correct]**
-
+Load the DPU bitstream onto the board. Common methods: 
 | Method | Use Case |
 |--------|----------|
 | **Vivado Hardware Manager** (JTAG over USB) | Development / debugging |
@@ -85,12 +66,8 @@ Load the DPU bitstream onto the board. Common methods: ✅ **[correct]**
 | **Ethernet / PCIe** | Data-centre accelerator cards (Alveo) |
 
 ### Write the Host Application
-On the ARM processing system, use the **Vitis AI Runtime (VART)**: ✅ **[correct]**
-
-- **C++ or Python API** to load the `.xmodel`, submit inference jobs to the DPU asynchronously, and retrieve results. ✅ **[correct]**
-- **Vitis AI Library** provides higher-level wrappers with pre-built pre-processing (resize, normalise) and post-processing (NMS, softmax) pipelines for common tasks. ✅ **[correct]**
-- Typical loop: capture frame from camera (MIPI) → pre-process → DPU inference → post-process → act on result. ✅ **[correct]**
-
+On the ARM processing system, use the **Vitis AI Runtime (VART)**: 
+- **C++ or Python API** to load the `.xmodel`, submit inference jobs to the DPU asynchronously, and retrieve results. - **Vitis AI Library** provides higher-level wrappers with pre-built pre-processing (resize, normalise) and post-processing (NMS, softmax) pipelines for common tasks. - Typical loop: capture frame from camera (MIPI) → pre-process → DPU inference → post-process → act on result. 
 ```
 ┌──────────────────────────────────────┐
 │  Processing System (ARM / Linux)     │
@@ -109,7 +86,7 @@ On the ARM processing system, use the **Vitis AI Runtime (VART)**: ✅ **[correc
 └──────────────────────────────────────┘
 ```
 
-✅ **[correct]** — Accurate PS/PL architecture diagram for Zynq/Versal platforms.
+Accurate PS/PL architecture diagram for Zynq/Versal platforms.
 
 ---
 
@@ -126,8 +103,7 @@ On the ARM processing system, use the **Vitis AI Runtime (VART)**: ✅ **[correc
 | Program | Vivado Hardware Manager / SD boot | bitstream | running DPU on FPGA |
 | Host App | VART / Vitis AI Library | `.xmodel` + sensor data | inference results |
 
-> **Environment note:** Vitis AI tools ship as **Docker containers** (CPU and GPU variants). ✅ **[correct]** Vivado and Vitis are native Linux/Windows installs. ✅ **[correct]** The DPU IP core is included with Vitis AI and instantiated inside Vivado. ✅ **[correct]**
-
+> **Environment note:** Vitis AI tools ship as **Docker containers** (CPU and GPU variants). Vivado and Vitis are native Linux/Windows installs. The DPU IP core is included with Vitis AI and instantiated inside Vivado. 
 ---
 
 ## External Resources
@@ -138,24 +114,19 @@ On the ARM processing system, use the **Vitis AI Runtime (VART)**: ✅ **[correc
 - [Python to FPGA](https://github.com/0BAB1/tutorial-snippets/tree/main/8%20Python%20to%20FPGA)
 - [Educational Platform for FPGA Accelerated AI in Robotics](https://github.com/nhma20/FPGA_AI)
 - [Workflow of deploying a model (AMD) — Vitis AI 3.5 docs](https://xilinx.github.io/Vitis-AI/3.5/html/docs/workflow-model-deployment.html)
-- **OpenCL** ⚠️ **[doubtable]** — orphaned bullet; presumably a reference to AMD's XRT/OpenCL flow for Alveo FPGA accelerators, but the context is missing. Needs clarification or removal.
+- **AMD XRT (Xilinx Runtime) & OpenCL** — alternative acceleration flow for Alveo data-center FPGA cards. XRT provides a software stack for host-to-FPGA communication, and OpenCL kernels can be synthesized via Vitis to run on the FPGA fabric. This is a separate path from the Vitis AI/DPU workflow — use it for custom compute pipelines rather than neural-network inference.
 
 ---
 
 ## AI Module Comparison
 
-> ⚠️ **[doubtable]** — The TOPS and power figures below are **vendor-marketing numbers** measured under different conditions (peak vs. sustained, INT8 vs. mixed precision, with vs. without sparsity). Use them for rough comparison only; real-world performance depends heavily on workload, batch size, and thermal constraints.
 
 | Platform / Device | Peak AI Performance (TOPS) | Power Consumption | Primary Use Case & Architecture | Verdict |
 |---|---|---|---|---|
-| **NVIDIA Jetson AGX Orin** | Up to 275 TOPS (INT8) | 15W – 60W | High-end robotics, autonomous navigation. Integrates CPU, Ampere GPU, and Deep Learning Accelerators (DLA). | ✅ **[correct]** |
-| **NVIDIA Jetson Orin Nano (Super)** | ~~Up to 40 TOPS~~ | 7W – 25W | Entry-level embedded AI and smart cameras. Offers a lower-power CUDA entry point. | ❌ **[incorrect]** — The "Super" variant (announced Dec 2024) delivers **up to 67 INT8 TOPS** (8 GB SKU), not 40. The original Orin Nano (non-Super) was 40 TOPS. Update this figure if you mean the Super. |
-| **Raspberry Pi 5 + Hailo-8 AI HAT** | ~13 to 26 TOPS | 10W – 15W | Low-power field robots. Relies on a separate Hailo accelerator (Hailo-8L = 13 TOPS, Hailo-8 = 26 TOPS) for edge inference. | ✅ **[correct]** |
-| **Intel NUC (Core Ultra / Arc)** | ~20 to 40+ TOPS (NPU + GPU) | 28W – 65+W (system) | Industrial edge / edge server. Allows full x86 compatibility and PCIe expansion. | ⚠️ **[doubtable]** — TOPS vary massively by generation: Meteor Lake NPU ≈ 11 TOPS, Lunar Lake NPU ≈ 48 TOPS, Arrow Lake NPU ≈ 13 TOPS. "20–40+ TOPS" is a reasonable ballpark for Meteor Lake + Arc GPU combined, but Lunar Lake NUCs can far exceed this. Specify the exact CPU generation. |
-| **Axelera Metis AI** | Up to 214 TOPS | 20W – 40W | Based on in-memory computing (PIM) and RISC-V; optimized for ultra-low latency at high TOPS. | ✅ **[correct]** — Matches Axelera's published Metis AIPU specs. |
-| **EdgeCortix SAKURA** | Up to 60 TOPS | Under 10W | Highly efficient FIM (Fabric in Memory) architecture; targets low-power smart city and vision applications. | ✅ **[correct]** — Matches EdgeCortix SAKURA-I published specs. |
-| **SiMa.ai MLSoC** | Up to 50+ TOPS | Under 5W | Purpose-built for edge AI; integrated CV/vision pipeline with software-programmable NPU. | ⚠️ **[doubtable]** — The "50+ TOPS" claim is plausible, but **"under 5W" is aggressive** for the full SoC at peak throughput. SiMa.ai's public materials cite ~5–10W typical board power depending on workload. Verify against a specific SKU datasheet. |
-
-> 📝 **Note:** The original entry for SiMa.ai was truncated at "Purpose-bui". The description above has been completed based on publicly available SiMa.ai materials.
-
-> 🔗 **Reference link:** [Google share — AI module comparison](https://share.google/aimode/L7ZSdQgz3HyC4D2pm) ⚠️ **[doubtable]** — This URL does not match the standard `share.google.com` format. It may be an internal/corporate Google link, a typo, or an expired share. Verify it resolves before relying on it.
+| **NVIDIA Jetson AGX Orin** | Up to 275 TOPS (INT8) | 15W – 60W | High-end robotics, autonomous navigation. Integrates CPU, Ampere GPU, and Deep Learning Accelerators (DLA). | |
+| **NVIDIA Jetson Orin Nano (Super)** | Up to 67 TOPS (INT8, 8 GB SKU) / 40 TOPS (original non-Super) | 7W – 25W | Entry-level embedded AI and smart cameras. The "Super" variant (Dec 2024) offers a significant TOPS uplift over the original Orin Nano. Lower-power CUDA entry point. | |
+| **Raspberry Pi 5 + Hailo-8 AI HAT** | ~13 to 26 TOPS | 10W – 15W | Low-power field robots. Relies on a separate Hailo accelerator (Hailo-8L = 13 TOPS, Hailo-8 = 26 TOPS) for edge inference. | |
+| **Intel NUC (Core Ultra / Arc)** | 20–40+ TOPS (NPU + GPU, varies by generation) | 28W – 65+W (system) | Industrial edge / edge server. Full x86 compatibility and PCIe expansion. **Generation breakdown:** Meteor Lake NPU ≈ 11 TOPS, Arrow Lake NPU ≈ 13 TOPS, Lunar Lake NPU ≈ 48 TOPS. Combined NPU + Arc GPU can reach 40+ TOPS on Lunar Lake. Specify the exact CPU generation when comparing. | |
+| **Axelera Metis AI** | Up to 214 TOPS | 20W – 40W | Based on in-memory computing (PIM) and RISC-V; optimized for ultra-low latency at high TOPS. | Matches Axelera's published Metis AIPU specs. |
+| **EdgeCortix SAKURA** | Up to 60 TOPS | Under 10W | Highly efficient FIM (Fabric in Memory) architecture; targets low-power smart city and vision applications. | Matches EdgeCortix SAKURA-I published specs. |
+| **SiMa.ai MLSoC** | Up to 50+ TOPS | ~5–10W (typical board power) | Purpose-built for edge AI; integrated CV/vision pipeline with software-programmable NPU. Power varies by workload — peak throughput draws toward the higher end of the range. Verify against a specific SKU datasheet. | |
