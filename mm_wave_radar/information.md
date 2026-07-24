@@ -112,27 +112,6 @@ The key advantage is **3D Doppler Imaging**. Even if an animal is perfectly stil
 - Higher bandwidth (5.5 GHz) gives finer range resolution (~2.7 cm) than TI alternatives.
 - **Limitation**: Single TX channel limits MIMO imaging unless multiple boards are synchronized. Best suited for single-point vital sign detection rather than full 3D imaging.
 
-### [Vayyar — XRR / Walabot Imaging Radar Modules](https://www.vayyar.com/)
-![](./images/vayyar.png)
-
-| Feature | Specification |
-|---|---|
-| Frequency Band | 3–81 GHz (product dependent); 60 GHz & 79 GHz for high-res imaging |
-| TX/RX Channels | Up to 48 transceivers (RFIC-based, MIMO array on-chip) |
-| Range Resolution | ~1–2 cm (ultra-wideband capable) |
-| Detection Range | 0–10 m (indoor imaging), 0–2 m for through-material screening |
-| Field of View | Up to 160° (wide-angle lensless antenna array) |
-| Output Interface | USB, Ethernet, Wi-Fi (product dependent) |
-| SDK / Processing | Vayyar SDK, 3D imaging engine, MATLAB/Python API |
-| Vital Sign Detection | Yes — demonstrated in healthcare and automotive child-presence detection |
-| 3D Imaging Capability | **Yes — core capability**. High-channel-count MIMO provides dense 3D voxel maps. |
-| On-Chip DSP | Yes |
-| Price | NDA / Contact vendor (varies by module & volume) |
-
-- **Key differentiator**: Highest channel count (up to 48 TRX) among commercial options — produces the most detailed 3D images and Doppler maps.
-- Already proven in through-material imaging applications (wall scanning, automotive occupant detection).
-- Full-stack solution (hardware + imaging engine + API) reduces integration effort vs. building from raw radar data.
-- Price is higher and requires NDA — more suited to funded development programs than initial benchtop prototyping.
 
 ---
 
@@ -144,7 +123,7 @@ The key advantage is **3D Doppler Imaging**. Even if an animal is perfectly stil
 | **TI IWR1843BOOST** | 77 GHz | 3/4 (12 virt.) | 4 GHz | Yes (moderate) | Via custom DSP | ~$349–$849 |
 | **TI IWRL6432BOOST** | 60 GHz | 2/3 (6 virt.) | 4 GHz | Limited | Via custom DSP | ~$199–$699 |
 | **Infineon BGT60TR13C** | 60 GHz | 1/3 (3 virt.) | 5.5 GHz | No (single TX) | Yes | ~€250 |
-| **Vayyar Module** | 60/79 GHz | Up to 48 | Wideband | **Yes (best-in-class)** | Yes | NDA req. |
+
 
 ---
 
