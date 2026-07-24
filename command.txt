@@ -1,0 +1,20 @@
+conda activate iSDS-genAI-annotate
+python /home/risksis/Desktop/iSDS-genAI-annotate/app_single.py /home/risksis/Desktop/1779961142_gen_abandon_0427-0430
+
+20260429/macro_edited/defect/1779961142/DA4930148_20251114131222400/0/p_support_frame1_t1.png 8644
+20260430/macro_edited/defect/1779961142/DA6102933_20251124102508500/0/p_support_frame1_t1.png 3000
+
+### NEW (20260623)
+conda activate iSDS-genAI-annotate
+python /home/risksis/Documents/intern/annotation/data/iSDS-genAI-annotate/app_single.py /home/risksis/Documents/intern/annotation/data/1781409732_gen_corr_wall_0506-0507
+
+
+###　20260626
+conda activate anylabeling_t
+anylabeling /home/risksis/Documents/intern/annotation/1781750140_touchup_0506-0507
+
+
+anylabeling ./ --flags flags.txt --task broken-poly
+
+
+git+http://192.168.0.20/anylabeling/anylabeling_modded@t7.1_dev
